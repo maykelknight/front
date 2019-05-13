@@ -2,63 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="483893ce-76ac-4ace-ab6e-d4a8edc4cfe8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/assets/css/colors.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/components/buttons.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/components/navbar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/components/slideshow.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/helpers/colors.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/helpers/spacing.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/pages/showcase.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/sections/about.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/sections/cv.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/sections/exp.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/sections/experience.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/sections/header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/sections/showcase.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/sections/skills.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/about-bckg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/about-bckg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/bckg-experience.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/foto1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/heading.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/heading2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/ico-back.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/ico-box.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/ico-plant.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/ico-school.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/showcase/musicly/img1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/showcase/musicly/img2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/showcase/musicly/img3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/showcase/musicly/img4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/showcase1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/showcase2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/showcase2a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/showcase3a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/skills1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/skills2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/skills3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/skills4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/theme.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/components/buttons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/components/navbar.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/components/slideshow.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/helpers/colors.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/helpers/fonts.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/helpers/spacing.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/main.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pages/showcase.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/sections/about.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/sections/contact.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/sections/cv.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/sections/exp.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/sections/header.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/sections/showcase.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/sections/skills.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/showcase.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -75,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="74" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
+            <state relative-caret-position="272">
+              <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -99,7 +44,9 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -147,12 +94,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557781639344</updated>
-      <workItem from="1557781641609" duration="19000" />
+      <workItem from="1557781641609" duration="345000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19000" />
+    <option name="totallyTimeSpent" value="345000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -161,12 +108,12 @@
       <window_info id="npm" side_tool="true" />
       <window_info id="DB Browser" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="DB Execution Console" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -186,8 +133,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="74" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
+        <state relative-caret-position="272">
+          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
         </state>
       </provider>
     </entry>
