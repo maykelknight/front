@@ -1,3 +1,5 @@
+import '../scss/main.scss'
+
 var navLinks = document.querySelectorAll(".nav-btn a");
 var sections = document.querySelectorAll("section");
 var navWrapper = document.getElementsByClassName("nav-wrapper")[0];
