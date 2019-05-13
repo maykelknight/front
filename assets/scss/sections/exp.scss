@@ -16,4 +16,8 @@
     margin: 0 auto;
     letter-spacing: 0.5px;
   }
+
+  @media (max-width: 768px) {
+    background-attachment: scroll;
+  }
 }
