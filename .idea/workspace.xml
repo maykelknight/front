@@ -2,8 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="483893ce-76ac-4ace-ab6e-d4a8edc4cfe8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/about-bckg.00646352.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bckg-experience.9d9c3db1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/heading2.b5b8091a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/ico-back.250d1f0a.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/ico-box.a3b371ed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/ico-plant.dcc33815.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/ico-school.ed44eacf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img1.7f91271f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img2.f2fd0b58.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img3.0c473725.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img4.788d9fad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.2b755954.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.2b755954.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.2b755954.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.2b755954.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.cea5deef.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.cea5deef.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.cea5deef.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.cea5deef.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/showcase.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/showcase1.10fe961a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/showcase2.91c4e52f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/showcase3a.82b2d47a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/skills1.2a0cfc7a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/skills2.b8cb39a2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/skills3.4ce2a192.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/skills4.b85fb2fc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/components/navbar.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,11 +46,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/assets/scss/components/navbar.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="212" column="14" selection-start-line="212" selection-start-column="14" selection-end-line="212" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -35,6 +73,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/assets/scss/components/navbar.scss" />
       </list>
     </option>
   </component>
@@ -58,6 +97,32 @@
             <path>
               <item name="Szybki Start" type="b2602c69:ProjectViewProjectNode" />
               <item name="Szybki Start" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Szybki Start" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Szybki Start" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Szybki Start" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Szybki Start" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Szybki Start" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Szybki Start" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Szybki Start" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Szybki Start" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -94,12 +159,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557781639344</updated>
-      <workItem from="1557781641609" duration="345000" />
+      <workItem from="1557781641609" duration="931000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="345000" />
+    <option name="totallyTimeSpent" value="931000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -108,12 +173,12 @@
       <window_info id="npm" side_tool="true" />
       <window_info id="DB Browser" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="DB Execution Console" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -134,7 +199,14 @@
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/components/navbar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="212" column="14" selection-start-line="212" selection-start-column="14" selection-end-line="212" selection-end-column="14" />
         </state>
       </provider>
     </entry>

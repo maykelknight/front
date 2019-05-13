@@ -49,9 +49,11 @@
         font-size: 14px;
         margin: 0 10px;
         position: relative;
+        display: block;
 
         a {
           color: $white;
+          display: block;
 
           &.current {
             color: $default;
@@ -208,6 +210,8 @@
             }
             a {
               color: $black;
+              display: block;
+
             }
             &:nth-of-type(1) {
               transition-delay: 0.2s;
