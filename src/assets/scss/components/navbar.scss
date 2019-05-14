@@ -115,8 +115,8 @@
 
           i {
             background: $black;
-            transition: transform 0.2s ease;
-            -webkit-transition: -webkit-transform 0.2s ease;
+            transition: transform 2s ease;
+            -webkit-transition: -webkit-transform 2s ease;
 
             &:nth-child(1) {
               transform: translateY(6px) rotate(180deg);
@@ -203,7 +203,7 @@
             text-align: right;
             color: $black;
             opacity: 0;
-            transition: all 0.2s ease;
+            transition: all 1s ease;
             margin-bottom: 20px;
             transform: translateX(-20px);
             padding-right: 20px;
@@ -216,7 +216,7 @@
 
             }
             &:nth-of-type(1) {
-              transition-delay: 0.2s;
+              transition-delay: 1s;
             }
 
             &:nth-of-type(2) {
@@ -224,7 +224,7 @@
             }
 
             &:nth-of-type(3) {
-              transition-delay: 0.4s;
+              transition-delay: 2s;
             }
 
             &:nth-of-type(4) {
