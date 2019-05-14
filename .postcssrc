@@ -1,5 +1,10 @@
 {
   "plugins": {
     "autoprefixer": true
-  }
+  },
+  "browserslist": [
+      "> 1%",
+      "last 2 versions",
+      "IE 10"
+    ]
 }
