@@ -9,6 +9,7 @@
   width: 100%;
   z-index: 11;
   transition: 1s;
+  -webkit-transition: 1s;
   padding: 0 110px;
 
   &.nav-scrolled {
@@ -66,7 +67,7 @@
           height: 2px;
           width: 0;
           background: $default;
-          transition: width .3s;
+          transition: all .3s;
         }
 
         &:hover {
@@ -115,6 +116,7 @@
           i {
             background: $black;
             transition: transform 0.2s ease;
+            -webkit-transition: -webkit-transform 0.2s ease;
 
             &:nth-child(1) {
               transform: translateY(6px) rotate(180deg);
