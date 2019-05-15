@@ -50,6 +50,7 @@
         font-size: 14px;
         margin: 0 10px;
         position: relative;
+        display: block;
 
         a {
           color: $white;
@@ -103,8 +104,8 @@
 
           i {
             background: $black;
-            transition: transform 0.5s ease;
-            -webkit-transition: -webkit-transform 0.5s ease;
+            transition: transform 2s ease;
+            -webkit-transition: -webkit-transform 1s ease;
 
             &:nth-child(1) {
               transform: translateY(6px) rotate(180deg);
@@ -190,11 +191,10 @@
             width: 100%;
             text-align: right;
             opacity: 0;
-            //transition: all 0.5s ease-in-out;
-            transition-duration: 1s;
-            transition-property: opacity, transform;
-            padding: 10px;
-
+            transition: all 2s ease;
+            margin-bottom: 20px;
+            //transform: translateX(-20px);
+            padding-right: 20px;
             &:after {
               display: none;
             }

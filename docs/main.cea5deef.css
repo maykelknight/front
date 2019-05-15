@@ -380,7 +380,8 @@ h3 {
         display: inline-block;
         font-size: 14px;
         margin: 0 10px;
-        position: relative; }
+        position: relative;
+        display: block; }
         .nav-wrapper .nav .nav-btns .nav-btn a {
           color: #fff;
           display: block; }
@@ -410,10 +411,10 @@ h3 {
                 transform: rotate(45deg); }
         .nav-wrapper .nav #hamburger:checked + .hamburger-toggle i {
           background: #000;
-          transition: -webkit-transform 0.5s ease;
-          transition: transform 0.5s ease;
-          transition: transform 0.5s ease, -webkit-transform 0.5s ease;
-          -webkit-transition: -webkit-transform 0.5s ease; }
+          transition: -webkit-transform 2s ease;
+          transition: transform 2s ease;
+          transition: transform 2s ease, -webkit-transform 2s ease;
+          -webkit-transition: -webkit-transform 1s ease; }
           .nav-wrapper .nav #hamburger:checked + .hamburger-toggle i:nth-child(1) {
             -webkit-transform: translateY(6px) rotate(180deg);
                     transform: translateY(6px) rotate(180deg); }
@@ -474,11 +475,9 @@ h3 {
             width: 100%;
             text-align: right;
             opacity: 0;
-            transition-duration: 1s;
-            transition-property: opacity, -webkit-transform;
-            transition-property: opacity, transform;
-            transition-property: opacity, transform, -webkit-transform;
-            padding: 10px; }
+            transition: all 2s ease;
+            margin-bottom: 20px;
+            padding-right: 20px; }
             .nav-wrapper .nav .nav-btns-wrapper .nav-btns .nav-btn:after {
               display: none; }
             .nav-wrapper .nav .nav-btns-wrapper .nav-btns .nav-btn a {
