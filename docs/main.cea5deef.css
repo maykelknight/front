@@ -411,10 +411,10 @@ h3 {
                 transform: rotate(45deg); }
         .nav-wrapper .nav #hamburger:checked + .hamburger-toggle i {
           background: #000;
-          transition: -webkit-transform 1s ease;
-          transition: transform 1s ease;
-          transition: transform 1s ease, -webkit-transform 1s ease;
-          -webkit-transition: -webkit-transform 1s ease; }
+          transition: -webkit-transform 1.6s ease;
+          transition: transform 1.6s ease;
+          transition: transform 1.6s ease, -webkit-transform 1.6s ease;
+          -webkit-transition: -webkit-transform 1.6s ease; }
           .nav-wrapper .nav #hamburger:checked + .hamburger-toggle i:nth-child(1) {
             -webkit-transform: translateY(6px) rotate(180deg);
                     transform: translateY(6px) rotate(180deg); }

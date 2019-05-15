@@ -104,8 +104,8 @@
 
           i {
             background: $black;
-            transition: transform 1s ease;
-            -webkit-transition: -webkit-transform 1s ease;
+            transition: transform 1.6s ease;
+            -webkit-transition: -webkit-transform 1.6s ease;
 
             &:nth-child(1) {
               transform: translateY(6px) rotate(180deg);
