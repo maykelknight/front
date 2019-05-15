@@ -59,7 +59,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/assets/scss/components/navbar.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
+            <state relative-caret-position="212">
               <caret line="130" column="36" selection-start-line="130" selection-start-column="36" selection-end-line="130" selection-end-column="36" />
             </state>
           </provider>
@@ -228,12 +228,12 @@
       <workItem from="1557858353225" duration="6378000" />
       <workItem from="1557864865114" duration="2603000" />
       <workItem from="1557901024414" duration="802000" />
-      <workItem from="1557933830876" duration="3478000" />
+      <workItem from="1557933830876" duration="3755000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15059000" />
+    <option name="totallyTimeSpent" value="15336000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -350,7 +350,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/scss/components/navbar.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
+        <state relative-caret-position="212">
           <caret line="130" column="36" selection-start-line="130" selection-start-column="36" selection-end-line="130" selection-end-column="36" />
         </state>
       </provider>
