@@ -233,7 +233,9 @@ h3 {
       margin: 10px;
       overflow: hidden;
       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-      transition: .5s;
+      transition: -webkit-transform 4s;
+      transition: transform 4s;
+      transition: transform 4s, -webkit-transform 4s;
       position: relative;
       margin-bottom: 50px; }
       .showcase .work-list .single-work:hover .description {
