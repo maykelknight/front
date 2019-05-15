@@ -428,7 +428,9 @@ h3 {
         opacity: 1;
         position: fixed; }
         .nav-wrapper .nav #hamburger:checked ~ .nav-btns-wrapper .nav-btn {
-          opacity: 1; }
+          opacity: 1;
+          -webkit-transform: translateX(-20px);
+                  transform: translateX(-20px); }
       .nav-wrapper .nav .hamburger-toggle {
         position: fixed;
         right: 10px;
@@ -477,6 +479,8 @@ h3 {
             opacity: 0;
             transition: all 1.6s ease;
             margin-bottom: 20px;
+            -webkit-transform: translateX(20px);
+                    transform: translateX(20px);
             padding-right: 20px; }
             .nav-wrapper .nav .nav-btns-wrapper .nav-btns .nav-btn:after {
               display: none; }
