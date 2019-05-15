@@ -380,8 +380,7 @@ h3 {
         display: inline-block;
         font-size: 14px;
         margin: 0 10px;
-        position: relative;
-        display: block; }
+        position: relative; }
         .nav-wrapper .nav .nav-btns .nav-btn a {
           color: #fff;
           display: block; }
@@ -411,10 +410,10 @@ h3 {
                 transform: rotate(45deg); }
         .nav-wrapper .nav #hamburger:checked + .hamburger-toggle i {
           background: #000;
-          transition: -webkit-transform 2s ease;
-          transition: transform 2s ease;
-          transition: transform 2s ease, -webkit-transform 2s ease;
-          -webkit-transition: -webkit-transform 1s ease; }
+          transition: -webkit-transform 0.5s ease;
+          transition: transform 0.5s ease;
+          transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+          -webkit-transition: -webkit-transform 0.5s ease; }
           .nav-wrapper .nav #hamburger:checked + .hamburger-toggle i:nth-child(1) {
             -webkit-transform: translateY(6px) rotate(180deg);
                     transform: translateY(6px) rotate(180deg); }
@@ -428,8 +427,9 @@ h3 {
         opacity: 1;
         position: fixed; }
         .nav-wrapper .nav #hamburger:checked ~ .nav-btns-wrapper .nav-btn {
-          -webkit-transform: translateX(0);
-                  transform: translateX(0); }
+          opacity: 1;
+          -webkit-transform: translateX(-30px);
+                  transform: translateX(-30px); }
       .nav-wrapper .nav .hamburger-toggle {
         position: fixed;
         right: 10px;
@@ -475,14 +475,12 @@ h3 {
             float: none;
             width: 100%;
             text-align: right;
-            transition: all 0.5s ease-in-out;
+            opacity: 0;
             transition-duration: 0.5s;
             transition-property: opacity, -webkit-transform;
             transition-property: transform, opacity;
             transition-property: transform, opacity, -webkit-transform;
-            -webkit-transform: translateX(-20px);
-                    transform: translateX(-20px);
-            padding-right: 20px; }
+            padding: 10px; }
             .nav-wrapper .nav .nav-btns-wrapper .nav-btns .nav-btn:after {
               display: none; }
             .nav-wrapper .nav .nav-btns-wrapper .nav-btns .nav-btn a {
