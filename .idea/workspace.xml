@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="483893ce-76ac-4ace-ab6e-d4a8edc4cfe8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/main.cea5deef.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/main.cea5deef.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/components/navbar.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -31,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -44,8 +42,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/assets/scss/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
+            <state relative-caret-position="199">
               <caret line="44" selection-start-line="44" selection-end-line="51" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/assets/scss/components/navbar.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="205" column="29" selection-start-line="205" selection-start-column="29" selection-end-line="205" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -59,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/assets/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="105" lean-forward="true" selection-start-line="1" selection-end-line="105" />
+            <state relative-caret-position="1785">
+              <caret line="105" selection-start-line="1" selection-end-line="105" />
             </state>
           </provider>
         </entry>
@@ -73,15 +80,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="561">
               <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/scss/sections/showcase.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -112,7 +110,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/assets/scss/components/navbar.scss" />
         <option value="$PROJECT_DIR$/.postcssrc" />
         <option value="$PROJECT_DIR$/src/showcase.html" />
         <option value="$PROJECT_DIR$/src/assets/scss/components/buttons.scss" />
@@ -123,6 +120,7 @@
         <option value="$PROJECT_DIR$/src/assets/scss/sections/header.scss" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/assets/js/main.js" />
+        <option value="$PROJECT_DIR$/src/assets/scss/components/navbar.scss" />
       </list>
     </option>
   </component>
@@ -150,11 +148,6 @@
             <path>
               <item name="Szybki Start" type="b2602c69:ProjectViewProjectNode" />
               <item name="Szybki Start" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Szybki Start" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Szybki Start" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -168,7 +161,7 @@
               <item name="Szybki Start" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Szybki Start" type="b2602c69:ProjectViewProjectNode" />
@@ -176,7 +169,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="scss" type="462c0819:PsiDirectoryNode" />
-              <item name="sections" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Szybki Start" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Szybki Start" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -220,18 +220,18 @@
       <workItem from="1557858353225" duration="6378000" />
       <workItem from="1557864865114" duration="2603000" />
       <workItem from="1557901024414" duration="802000" />
-      <workItem from="1557933830876" duration="1171000" />
+      <workItem from="1557933830876" duration="1626000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12752000" />
+    <option name="totallyTimeSpent" value="13207000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17633928" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17633928" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="DB Browser" order="3" />
@@ -246,7 +246,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.31751227" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.31751227" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -260,13 +260,6 @@
     <entry file="file://$PROJECT_DIR$/docs/main.c561343d.css" />
     <entry file="file://$PROJECT_DIR$/docs/main.a6cc1344.css" />
     <entry file="file://$PROJECT_DIR$/docs/main.58bb64c5.css" />
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/components/navbar.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3451">
-          <caret line="203" column="24" selection-start-line="203" selection-start-column="24" selection-end-line="203" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/scss/sections/about.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -312,7 +305,7 @@
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -326,10 +319,10 @@
     <entry file="file://$PROJECT_DIR$/src/assets/scss/sections/cv.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/main.scss">
+    <entry file="file://$PROJECT_DIR$/src/assets/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="44" selection-start-line="44" selection-end-line="51" selection-end-column="1" />
+        <state relative-caret-position="1785">
+          <caret line="105" selection-start-line="1" selection-end-line="105" />
         </state>
       </provider>
     </entry>
@@ -340,10 +333,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/js/main.js">
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="105" lean-forward="true" selection-start-line="1" selection-end-line="105" />
+        <state relative-caret-position="199">
+          <caret line="44" selection-start-line="44" selection-end-line="51" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/components/navbar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="205" column="29" selection-start-line="205" selection-start-column="29" selection-end-line="205" selection-end-column="29" />
         </state>
       </provider>
     </entry>
