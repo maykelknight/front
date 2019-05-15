@@ -415,13 +415,13 @@ h3 {
           transition: transform .4s ease, -webkit-transform .4s ease;
           -webkit-transition: -webkit-transform .5s ease; }
           .nav-wrapper .nav #hamburger:checked + .hamburger-toggle i:nth-child(1) {
-            -webkit-transform: translateY(6px) rotate(180deg);
-                    transform: translateY(6px) rotate(180deg); }
+            -webkit-transform: translate3d(0, 6px, 0) rotate(180deg);
+                    transform: translate3d(0, 6px, 0) rotate(180deg); }
           .nav-wrapper .nav #hamburger:checked + .hamburger-toggle i:nth-child(2) {
             opacity: 0; }
           .nav-wrapper .nav #hamburger:checked + .hamburger-toggle i:nth-child(3) {
-            -webkit-transform: translateY(-6px) rotate(90deg);
-                    transform: translateY(-6px) rotate(90deg); }
+            -webkit-transform: translate3d(0, -6px, 0) rotate(90deg);
+                    transform: translate3d(0, -6px, 0) rotate(90deg); }
       .nav-wrapper .nav #hamburger:checked ~ .nav-btns-wrapper {
         z-index: 9990;
         opacity: 1;

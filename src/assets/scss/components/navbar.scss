@@ -107,7 +107,7 @@
             -webkit-transition: -webkit-transform .5s ease;
 
             &:nth-child(1) {
-              transform: translateY(6px) rotate(180deg);
+              transform: translate3d(0,6px,0) rotate(180deg);
             }
 
             &:nth-child(2) {
@@ -115,7 +115,7 @@
             }
 
             &:nth-child(3) {
-              transform: translateY(-6px) rotate(90deg);
+              transform: translate3d(0,-6px,0) rotate(90deg);
             }
           }
         }
