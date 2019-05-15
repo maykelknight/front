@@ -377,6 +377,7 @@ h3 {
       font-weight: 600;
       letter-spacing: 1px; }
       .nav-wrapper .nav .nav-btns .nav-btn {
+        display: inline-block;
         font-size: 14px;
         margin: 0 10px;
         position: relative;
@@ -428,8 +429,8 @@ h3 {
         position: fixed; }
         .nav-wrapper .nav #hamburger:checked ~ .nav-btns-wrapper .nav-btn {
           opacity: 1;
-          -webkit-transform: translateX(-20px);
-                  transform: translateX(-20px); }
+          -webkit-transform: translateX(0);
+                  transform: translateX(0); }
       .nav-wrapper .nav .hamburger-toggle {
         position: fixed;
         right: 10px;
@@ -476,12 +477,10 @@ h3 {
             width: 100%;
             text-align: right;
             opacity: 0;
-            transition-duration: 1s;
-            transition-property: opacity, -webkit-transform;
-            transition-property: transform, opacity;
-            transition-property: transform, opacity, -webkit-transform;
-            -webkit-transform: translateX(100px);
-                    transform: translateX(100px); }
+            transition: all 0.5s ease-in-out;
+            -webkit-transform: translateX(-20px);
+                    transform: translateX(-20px);
+            padding-right: 20px; }
             .nav-wrapper .nav .nav-btns-wrapper .nav-btns .nav-btn:after {
               display: none; }
             .nav-wrapper .nav .nav-btns-wrapper .nav-btns .nav-btn a {
