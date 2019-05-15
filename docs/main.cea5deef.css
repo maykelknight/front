@@ -377,7 +377,6 @@ h3 {
       font-weight: 600;
       letter-spacing: 1px; }
       .nav-wrapper .nav .nav-btns .nav-btn {
-        display: inline-block;
         font-size: 14px;
         margin: 0 10px;
         position: relative;
@@ -411,10 +410,10 @@ h3 {
                 transform: rotate(45deg); }
         .nav-wrapper .nav #hamburger:checked + .hamburger-toggle i {
           background: #000;
-          transition: -webkit-transform 1.6s ease;
-          transition: transform 1.6s ease;
-          transition: transform 1.6s ease, -webkit-transform 1.6s ease;
-          -webkit-transition: -webkit-transform 1.6s ease; }
+          transition: -webkit-transform .4s ease;
+          transition: transform .4s ease;
+          transition: transform .4s ease, -webkit-transform .4s ease;
+          -webkit-transition: -webkit-transform .5s ease; }
           .nav-wrapper .nav #hamburger:checked + .hamburger-toggle i:nth-child(1) {
             -webkit-transform: translateY(6px) rotate(180deg);
                     transform: translateY(6px) rotate(180deg); }
@@ -428,9 +427,7 @@ h3 {
         opacity: 1;
         position: fixed; }
         .nav-wrapper .nav #hamburger:checked ~ .nav-btns-wrapper .nav-btn {
-          opacity: 1;
-          -webkit-transform: translateX(-20px);
-                  transform: translateX(-20px); }
+          opacity: 1; }
       .nav-wrapper .nav .hamburger-toggle {
         position: fixed;
         right: 10px;
@@ -477,10 +474,8 @@ h3 {
             width: 100%;
             text-align: right;
             opacity: 0;
-            transition: all 1.6s ease;
+            transition: all 1s ease;
             margin-bottom: 20px;
-            -webkit-transform: translateX(20px);
-                    transform: translateX(20px);
             padding-right: 20px; }
             .nav-wrapper .nav .nav-btns-wrapper .nav-btns .nav-btn:after {
               display: none; }
