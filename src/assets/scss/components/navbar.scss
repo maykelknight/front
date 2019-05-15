@@ -191,12 +191,14 @@
             text-align: right;
             opacity: 0;
             //transition: all 0.5s ease-in-out;
-            transition-duration: 0.5s;
-            transition-property: transform, opacity;
+            transition-duration: 1s;
+            transition-property: opacity, transform;
             padding: 10px;
+
             &:after {
               display: none;
             }
+
             a {
               color: $black;
               display: block;

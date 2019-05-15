@@ -474,10 +474,10 @@ h3 {
             width: 100%;
             text-align: right;
             opacity: 0;
-            transition-duration: 0.5s;
+            transition-duration: 1s;
             transition-property: opacity, -webkit-transform;
-            transition-property: transform, opacity;
-            transition-property: transform, opacity, -webkit-transform;
+            transition-property: opacity, transform;
+            transition-property: opacity, transform, -webkit-transform;
             padding: 10px; }
             .nav-wrapper .nav .nav-btns-wrapper .nav-btns .nav-btn:after {
               display: none; }
