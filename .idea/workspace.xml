@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="483893ce-76ac-4ace-ab6e-d4a8edc4cfe8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
@@ -26,20 +25,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/assets/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="105" lean-forward="true" selection-start-line="1" selection-end-line="105" />
+            <state relative-caret-position="1785">
+              <caret line="105" selection-start-line="1" selection-end-line="105" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="232">
-              <caret line="287" selection-start-line="287" selection-start-column="4" selection-end-line="291" selection-end-column="45" />
+              <caret line="287" column="16" selection-start-line="287" selection-end-line="288" />
             </state>
           </provider>
         </entry>
@@ -163,18 +162,18 @@
       <workItem from="1557864865114" duration="2603000" />
       <workItem from="1557901024414" duration="802000" />
       <workItem from="1557933830876" duration="7199000" />
-      <workItem from="1557948149360" duration="423000" />
+      <workItem from="1557948149360" duration="564000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19203000" />
+    <option name="totallyTimeSpent" value="19344000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17633928" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17633928" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="DB Browser" order="3" />
@@ -189,7 +188,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.15711948" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.15711948" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -276,17 +275,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="105" lean-forward="true" selection-start-line="1" selection-end-line="105" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
-          <caret line="287" selection-start-line="287" selection-start-column="4" selection-end-line="291" selection-end-column="45" />
+          <caret line="287" column="16" selection-start-line="287" selection-end-line="288" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="105" selection-start-line="1" selection-end-line="105" />
         </state>
       </provider>
     </entry>
