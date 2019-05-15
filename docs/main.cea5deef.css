@@ -428,8 +428,8 @@ h3 {
         opacity: 1;
         position: fixed; }
         .nav-wrapper .nav #hamburger:checked ~ .nav-btns-wrapper .nav-btn {
-          -webkit-transform: translateX(-20);
-                  transform: translateX(-20); }
+          -webkit-transform: translateX(-200px);
+                  transform: translateX(-200px); }
       .nav-wrapper .nav .hamburger-toggle {
         position: fixed;
         right: 10px;
