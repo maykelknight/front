@@ -203,6 +203,8 @@
             text-align: right;
             opacity: 0;
             transition: all 0.5s ease-in-out;
+            transition-duration: 0.5s;
+            transition-property: transform, opacity;
             transform: translateX(-20px);
             padding-right: 20px;
             &:after {
