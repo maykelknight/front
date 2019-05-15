@@ -105,6 +105,8 @@
             background: $black;
             transition: transform .4s ease;
             -webkit-transition: -webkit-transform .5s ease;
+            -webkit-perspective: 1000;
+            -webkit-backface-visibility: hidden;
 
             &:nth-child(1) {
               transform: translate3d(0,6px,0) rotate(180deg);
@@ -124,9 +126,13 @@
           z-index: 9990;
           opacity: 1;
           position: fixed;
+          -webkit-perspective: 1000;
+          -webkit-backface-visibility: hidden;
 
           .nav-btn {
             opacity: 1;
+            -webkit-perspective: 1000;
+            -webkit-backface-visibility: hidden;
             //transform: translateX(-20px);
           }
         }

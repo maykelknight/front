@@ -413,7 +413,9 @@ h3 {
           transition: -webkit-transform .4s ease;
           transition: transform .4s ease;
           transition: transform .4s ease, -webkit-transform .4s ease;
-          -webkit-transition: -webkit-transform .5s ease; }
+          -webkit-transition: -webkit-transform .5s ease;
+          -webkit-perspective: 1000;
+          -webkit-backface-visibility: hidden; }
           .nav-wrapper .nav #hamburger:checked + .hamburger-toggle i:nth-child(1) {
             -webkit-transform: translate3d(0, 6px, 0) rotate(180deg);
                     transform: translate3d(0, 6px, 0) rotate(180deg); }
@@ -425,9 +427,13 @@ h3 {
       .nav-wrapper .nav #hamburger:checked ~ .nav-btns-wrapper {
         z-index: 9990;
         opacity: 1;
-        position: fixed; }
+        position: fixed;
+        -webkit-perspective: 1000;
+        -webkit-backface-visibility: hidden; }
         .nav-wrapper .nav #hamburger:checked ~ .nav-btns-wrapper .nav-btn {
-          opacity: 1; }
+          opacity: 1;
+          -webkit-perspective: 1000;
+          -webkit-backface-visibility: hidden; }
       .nav-wrapper .nav .hamburger-toggle {
         position: fixed;
         right: 10px;
