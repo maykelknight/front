@@ -223,7 +223,8 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    -webkit-backface-visibility: hidden; }
     .showcase .work-list .single-work {
       background: #000;
       height: 300px;
@@ -610,7 +611,8 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  -webkit-backface-visibility: hidden; }
 
 html {
   scroll-behavior: smooth; }

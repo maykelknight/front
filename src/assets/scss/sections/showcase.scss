@@ -8,6 +8,7 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    -webkit-backface-visibility: hidden;
 
     .single-work {
       background: $black;
