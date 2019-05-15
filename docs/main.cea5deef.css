@@ -226,7 +226,7 @@ h3 {
     flex-wrap: wrap;
     -webkit-backface-visibility: hidden; }
     .showcase .work-list .single-work {
-      background: #000;
+      background: yellow;
       height: 300px;
       width: 350px;
       display: block;
@@ -247,7 +247,7 @@ h3 {
         -webkit-transform: translateY(-40px);
                 transform: translateY(-40px); }
       .showcase .work-list .single-work .image {
-        transition: .5s; }
+        transition: 2s; }
       .showcase .work-list .single-work .description {
         position: absolute;
         bottom: -50px;
