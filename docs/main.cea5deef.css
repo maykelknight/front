@@ -237,14 +237,14 @@ h3 {
       transition: transform 4s;
       transition: transform 4s, -webkit-transform 4s;
       position: relative;
-      margin-bottom: 50px; }
+      margin-bottom: 50px;
+      -webkit-backface-visibility: hidden; }
       .showcase .work-list .single-work:hover .description {
         bottom: 0;
         opacity: 1; }
       .showcase .work-list .single-work:hover .image {
-        opacity: 0.4;
-        -webkit-transform: translateY(-40px);
-                transform: translateY(-40px); }
+        -webkit-transform: translate3d(0, -40px, 0);
+                transform: translate3d(0, -40px, 0); }
       .showcase .work-list .single-work .image {
         transition: 10s; }
       .showcase .work-list .single-work .description {

@@ -24,6 +24,7 @@
       transition: transform 4s;
       position: relative;
       margin-bottom: 50px;
+      -webkit-backface-visibility: hidden;
 
 
       &:hover {
@@ -36,8 +37,8 @@
         }
 
         .image {
-            opacity: 0.4;
-            transform: translateY(-40px);
+            //opacity: 0.4;
+            transform: translate3d(0,-40px,0);
         }
       }
 
