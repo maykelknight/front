@@ -20,7 +20,7 @@
       border-radius: 20px;
       margin: 10px;
       overflow: hidden;
-      box-shadow: 0 5px 15px rgba(0,0,0,.5);
+      //box-shadow: 0 5px 15px rgba(0,0,0,.5);
       transition: transform 4s;
       position: relative;
       margin-bottom: 50px;
@@ -42,7 +42,7 @@
       }
 
       .image {
-        transition: 2s;
+        transition: 10s;
       }
 
       .description {

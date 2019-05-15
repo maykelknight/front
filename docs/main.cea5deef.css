@@ -233,7 +233,6 @@ h3 {
       border-radius: 20px;
       margin: 10px;
       overflow: hidden;
-      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
       transition: -webkit-transform 4s;
       transition: transform 4s;
       transition: transform 4s, -webkit-transform 4s;
@@ -247,7 +246,7 @@ h3 {
         -webkit-transform: translateY(-40px);
                 transform: translateY(-40px); }
       .showcase .work-list .single-work .image {
-        transition: 2s; }
+        transition: 10s; }
       .showcase .work-list .single-work .description {
         position: absolute;
         bottom: -50px;
