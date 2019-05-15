@@ -26,13 +26,15 @@
 
 
       &:hover {
-        transform: translateY(-20px);
-        box-shadow: 0 50px 50px rgba(0,0,0,.5);
+        //transform: translateY(-8000px);
+        //box-shadow: 0 50px 50px rgba(0,0,0,.5);
 
         .description {
           bottom: 0;
           opacity: 1;
         }
+
+
 
         .image {
             opacity: 0.4;

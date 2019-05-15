@@ -7,10 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "node-sass ./assets/scss --watch --recursive --output public/assets/css",
     "postcss": "postcss --use autoprefixer ./assets/scss/components/*.scss --watch -d public/assets/css",
-	"start": "parcel src/index.html --out-dir docs",
-	"build": "parcel build src/index.html --out-dir docs --public-url ./",
-	"deploy": "npm run build && git add . && git commit -a -m \"latest build\" && git push origin master"
-
+    "start": "parcel src/index.html src/scss/* --out-dir docs --no-cache",
+    "build": "parcel build src/index.html --out-dir docs --public-url ./",
+    "deploy": "npm run build && git add . && git commit -a -m \"latest build\" && git push origin master"
   },
   "author": "Michał Czapkowicz",
   "license": "ISC",
@@ -20,6 +19,7 @@
     "postcss-nested": "^4.1.2"
   },
   "dependencies": {
-    "autoprefixer": "^9.5.1"
+    "autoprefixer": "^9.5.1",
+    "parcel-bundler": "^1.12.3"
   }
 }

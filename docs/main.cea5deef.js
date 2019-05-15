@@ -117,7 +117,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"C:/Users/mayke/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+})({"../node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
 function getBundleURLCached() {
@@ -149,7 +149,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],"C:/Users/mayke/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
+},{}],"../node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -184,128 +184,16 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"C:/Users/mayke/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"assets/scss/main.scss":[function(require,module,exports) {
+},{"./bundle-url":"../node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"assets/scss/main.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\img\\heading2.jpg":[["heading2.b5b8091a.jpg","assets/img/heading2.jpg"],"assets/img/heading2.jpg"],"./..\\img\\about-bckg.jpg":[["about-bckg.00646352.jpg","assets/img/about-bckg.jpg"],"assets/img/about-bckg.jpg"],"./..\\img\\bckg-experience.jpg":[["bckg-experience.9d9c3db1.jpg","assets/img/bckg-experience.jpg"],"assets/img/bckg-experience.jpg"],"_css_loader":"C:/Users/mayke/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/js/main.js":[function(require,module,exports) {
+},{"./..\\img\\heading2.jpg":[["heading2.b5b8091a.jpg","assets/img/heading2.jpg"],"assets/img/heading2.jpg"],"./..\\img\\about-bckg.jpg":[["about-bckg.00646352.jpg","assets/img/about-bckg.jpg"],"assets/img/about-bckg.jpg"],"./..\\img\\bckg-experience.jpg":[["bckg-experience.9d9c3db1.jpg","assets/img/bckg-experience.jpg"],"assets/img/bckg-experience.jpg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/js/main.js":[function(require,module,exports) {
 "use strict";
 
 require("../scss/main.scss");
-
-var navLinks = document.querySelectorAll(".nav-btn a");
-var sections = document.querySelectorAll("section");
-var navWrapper = document.getElementsByClassName("nav-wrapper")[0];
-
-window.onload = function () {
-  addClickEventsToNavbarLinks();
-  hideNavigationMenuOnLinkClick();
-  showNavigationMenuOnHamburgerClicked();
-};
-
-window.addEventListener("scroll", throttle(function () {
-  setNavbarClass();
-  markActiveNavbarLink();
-}, 100));
-
-function throttle(callback, limit) {
-  var wait = false; // Initially, we're not waiting
-
-  return function () {
-    // We return a throttled function
-    if (!wait) {
-      // If we're not waiting
-      callback.call(); // Execute users function
-
-      wait = true; // Prevent future invocations
-
-      setTimeout(function () {
-        // After a period of time
-        wait = false; // And allow future invocations
-      }, limit);
-    }
-  };
-}
-
-function setNavbarClass() {
-  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-    navWrapper.classList.add('nav-scrolled');
-  } else {
-    navWrapper.classList.remove('nav-scrolled');
-  }
-}
-
-function smoothScroll(sectionTarget, duration) {
-  var target = document.querySelector(sectionTarget);
-  var targetPosition = target.getBoundingClientRect().top + window.scrollY - 40;
-  var startPosition = window.pageYOffset;
-  var distance = targetPosition - startPosition;
-  var startTime = null;
-
-  function animation(currentTime) {
-    if (startTime === null) {
-      startTime = currentTime;
-    }
-
-    var timeElapsed = currentTime - startTime;
-    var run = easeAnimate(timeElapsed, startPosition, distance, duration);
-    window.scrollTo(0, run);
-
-    if (timeElapsed < duration) {
-      requestAnimationFrame(animation);
-    }
-
-    markActiveNavbarLink();
-  }
-
-  requestAnimationFrame(animation);
-}
-
-function easeAnimate(t, b, c, d) {
-  t /= d / 2;
-  if (t < 1) return c / 2 * t * t + b;
-  t--;
-  return -c / 2 * (t * (t - 2) - 1) + b;
-}
-
-function markActiveNavbarLink() {
-  var fromTop = window.scrollY;
-  navLinks.forEach(function (link) {
-    var section = document.querySelector(link.hash);
-
-    if (section.offsetTop - 60 <= fromTop && section.offsetTop - 60 + section.offsetHeight > fromTop) {
-      link.classList.add("current");
-    } else {
-      link.classList.remove("current");
-    }
-  });
-}
-
-function addClickEventsToNavbarLinks() {
-  navLinks.forEach(function (link) {
-    link.addEventListener('click', function (event) {
-      event.preventDefault();
-      smoothScroll(link.hash, 200);
-    });
-  });
-}
-
-function hideNavigationMenuOnLinkClick() {
-  document.querySelectorAll('.nav-btn > a').forEach(function (item) {
-    item.addEventListener('click', function () {
-      document.querySelector(".hamburger-checkbox").checked = false;
-    });
-  });
-}
-
-function showNavigationMenuOnHamburgerClicked() {
-  document.querySelector('.hamburger-toggle').addEventListener('click', function () {
-    var isChecked = document.querySelector(".hamburger-checkbox").checked;
-    document.querySelector(".hamburger-checkbox").checked = !!isChecked;
-  });
-}
-},{"../scss/main.scss":"assets/scss/main.scss"}],"C:/Users/mayke/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"../scss/main.scss":"assets/scss/main.scss"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -333,7 +221,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50640" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55663" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -508,5 +396,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["C:/Users/mayke/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","assets/js/main.js"], null)
+},{}]},{},["../node_modules/parcel-bundler/src/builtins/hmr-runtime.js","assets/js/main.js"], null)
 //# sourceMappingURL=/main.cea5deef.js.map

@@ -1,6 +1,5 @@
 @import "../helpers/colors";
 
-
 .primary-btn {
   color: #fff;
   padding: 10px 52px;
@@ -15,7 +14,7 @@
   position: relative;
   z-index: 1;
   cursor: pointer;
-  text-align: center;
+  text-align: left;
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   backface-visibility: hidden;
