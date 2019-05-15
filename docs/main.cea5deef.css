@@ -246,7 +246,7 @@ h3 {
         -webkit-transform: translate3d(0, -40px, 0);
                 transform: translate3d(0, -40px, 0); }
       .showcase .work-list .single-work .image {
-        transition: 10s; }
+        transition: 2s; }
       .showcase .work-list .single-work .description {
         position: absolute;
         bottom: -50px;
