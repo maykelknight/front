@@ -11,12 +11,9 @@
 
 @import "pages/showcase";
 
-
 @import "components/navbar";
 @import "components/slideshow";
 @import "components/buttons";
-
-
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -24,6 +21,7 @@ body {
   margin: 0;
   padding: 0;
   -webkit-backface-visibility: hidden;
+  max-width: 1920px;
 }
 
 html {

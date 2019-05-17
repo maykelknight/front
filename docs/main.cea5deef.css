@@ -226,27 +226,32 @@ h3 {
     flex-wrap: wrap;
     -webkit-backface-visibility: hidden; }
     .showcase .work-list .single-work {
-      background: yellow;
+      background: #000;
       height: 300px;
       width: 350px;
       display: block;
       border-radius: 20px;
       margin: 10px;
       overflow: hidden;
-      transition: -webkit-transform 1s;
-      transition: transform 1s;
-      transition: transform 1s, -webkit-transform 1s;
+      transition: -webkit-transform .4s;
+      transition: transform .4s;
+      transition: transform .4s, -webkit-transform .4s;
       position: relative;
       margin-bottom: 50px;
       -webkit-backface-visibility: hidden; }
-      .showcase .work-list .single-work:hover .description {
-        bottom: 0;
-        opacity: 1; }
-      .showcase .work-list .single-work:hover .image {
-        -webkit-transform: translate3d(0, -40px, 0);
-                transform: translate3d(0, -40px, 0); }
+      .showcase .work-list .single-work:hover {
+        -webkit-transform: translateY(-20px);
+                transform: translateY(-20px);
+        box-shadow: 0 50px 50px rgba(0, 0, 0, 0.5); }
+        .showcase .work-list .single-work:hover .description {
+          bottom: 0;
+          opacity: 1; }
+        .showcase .work-list .single-work:hover .image {
+          opacity: 0.4;
+          -webkit-transform: translate3d(0, -40px, 0);
+                  transform: translate3d(0, -40px, 0); }
       .showcase .work-list .single-work .image {
-        transition: 2s; }
+        transition: 1s; }
       .showcase .work-list .single-work .description {
         position: absolute;
         bottom: -50px;
@@ -397,6 +402,8 @@ h3 {
           transition: all .3s; }
         .nav-wrapper .nav .nav-btns .nav-btn:hover:after {
           width: 100%; }
+  .nav-wrapper .hamburger-toggle {
+    display: none; }
 
 @media screen and (max-width: 768px) {
   .nav-wrapper {
@@ -407,39 +414,6 @@ h3 {
       color: #000; }
       .nav-wrapper .nav .nav-logo {
         display: none !important; }
-      .nav-wrapper .nav #hamburger:checked + .hamburger-toggle {
-        -webkit-transform: rotate(45deg);
-                transform: rotate(45deg); }
-        .nav-wrapper .nav #hamburger:checked + .hamburger-toggle i {
-          background: #000;
-          transition: -webkit-transform .4s ease;
-          transition: transform .4s ease;
-          transition: transform .4s ease, -webkit-transform .4s ease;
-          -webkit-transition: -webkit-transform .5s ease;
-          -webkit-perspective: 1000;
-          -webkit-backface-visibility: hidden; }
-          .nav-wrapper .nav #hamburger:checked + .hamburger-toggle i:nth-child(1) {
-            -webkit-transform: translate3d(0, 6px, 0) rotate(180deg);
-                    transform: translate3d(0, 6px, 0) rotate(180deg);
-            -webkit-perspective: 1000;
-            -webkit-backface-visibility: hidden; }
-          .nav-wrapper .nav #hamburger:checked + .hamburger-toggle i:nth-child(2) {
-            opacity: 0;
-            -webkit-perspective: 1000;
-            -webkit-backface-visibility: hidden; }
-          .nav-wrapper .nav #hamburger:checked + .hamburger-toggle i:nth-child(3) {
-            -webkit-transform: translate3d(0, -6px, 0) rotate(90deg);
-                    transform: translate3d(0, -6px, 0) rotate(90deg);
-            -webkit-perspective: 1000;
-            -webkit-backface-visibility: hidden; }
-      .nav-wrapper .nav #hamburger:checked ~ .nav-btns-wrapper {
-        z-index: 9990;
-        opacity: 1;
-        position: fixed;
-        -webkit-perspective: 1000;
-        -webkit-backface-visibility: hidden; }
-        .nav-wrapper .nav #hamburger:checked ~ .nav-btns-wrapper .nav-btn {
-          opacity: 1; }
       .nav-wrapper .nav .hamburger-toggle {
         position: fixed;
         right: 10px;
@@ -450,21 +424,40 @@ h3 {
         cursor: pointer;
         z-index: 9999;
         border-radius: 50%;
-        background: #fff; }
+        background: #fff;
+        outline: none;
+        border: none; }
         .nav-wrapper .nav .hamburger-toggle i {
           display: block;
           width: 20px;
           height: 2px;
           background: #000;
           border-radius: 2px;
-          margin-left: 14px; }
+          margin-left: 8px; }
           .nav-wrapper .nav .hamburger-toggle i:nth-of-type(1) {
-            margin-top: 18px; }
+            margin-top: 2px; }
           .nav-wrapper .nav .hamburger-toggle i:nth-of-type(2) {
             margin-top: 4px;
             opacity: 1; }
           .nav-wrapper .nav .hamburger-toggle i:nth-of-type(3) {
             margin-top: 4px; }
+        .nav-wrapper .nav .hamburger-toggle.active {
+          -webkit-transform: rotate(45deg);
+                  transform: rotate(45deg); }
+          .nav-wrapper .nav .hamburger-toggle.active i {
+            background: #000;
+            transition: -webkit-transform 0.5s ease;
+            transition: transform 0.5s ease;
+            transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+            -webkit-transition: -webkit-transform .5s ease; }
+            .nav-wrapper .nav .hamburger-toggle.active i:nth-child(1) {
+              -webkit-transform: translateY(6px) rotate(180deg);
+                      transform: translateY(6px) rotate(180deg); }
+            .nav-wrapper .nav .hamburger-toggle.active i:nth-child(2) {
+              opacity: 0; }
+            .nav-wrapper .nav .hamburger-toggle.active i:nth-child(3) {
+              -webkit-transform: translateY(-6px) rotate(90deg);
+                      transform: translateY(-6px) rotate(90deg); }
       .nav-wrapper .nav .nav-btns-wrapper {
         position: absolute;
         top: 0;
@@ -486,8 +479,10 @@ h3 {
             width: 100%;
             text-align: right;
             opacity: 0;
-            transition: all 1s ease;
+            transition: all 0.2s ease;
             margin-bottom: 20px;
+            -webkit-transform: translateX(-20px);
+                    transform: translateX(-20px);
             padding-right: 20px; }
             .nav-wrapper .nav .nav-btns-wrapper .nav-btns .nav-btn:after {
               display: none; }
@@ -503,7 +498,15 @@ h3 {
             .nav-wrapper .nav .nav-btns-wrapper .nav-btns .nav-btn:nth-of-type(4) {
               transition-delay: 0.5s; }
             .nav-wrapper .nav .nav-btns-wrapper .nav-btns .nav-btn:nth-of-type(5) {
-              transition-delay: 0.6s; } }
+              transition-delay: 0.6s; }
+        .nav-wrapper .nav .nav-btns-wrapper.active {
+          z-index: 9990;
+          opacity: 1;
+          position: fixed; }
+          .nav-wrapper .nav .nav-btns-wrapper.active .nav-btn {
+            opacity: 1;
+            -webkit-transform: translateX(0);
+                    transform: translateX(0); } }
 
 .card {
   position: relative;
@@ -611,7 +614,8 @@ body {
   font-size: 16px;
   margin: 0;
   padding: 0;
-  -webkit-backface-visibility: hidden; }
+  -webkit-backface-visibility: hidden;
+  max-width: 1920px; }
 
 html {
   scroll-behavior: smooth; }
