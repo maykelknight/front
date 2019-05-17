@@ -117,6 +117,7 @@ function showNavigationMenuOnHamburgerClicked () {
         if(!btnsWrapper.classList.contains('active')) {
             var cpy = btnsWrapper.cloneNode(true);
             btnsWrapper.parentNode.replaceChild(cpy, btnsWrapper);
+            hideNavigationMenuOnLinkClick();
         }
     })
 }
