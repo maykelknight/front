@@ -205,12 +205,10 @@ window.onload = function () {
   showNavigationMenuOnHamburgerClicked();
 };
 
-if (!isOnMobile) {
-  window.addEventListener("scroll", throttle(function () {
-    setNavbarClass();
-    markActiveNavbarLink();
-  }, 100));
-}
+window.addEventListener("scroll", throttle(function () {
+  setNavbarClass();
+  markActiveNavbarLink();
+}, 100));
 
 function isOnMobile() {
   return screenWidth <= 768;
