@@ -286,7 +286,7 @@ function addClickEventsToNavbarLinks() {
   navLinks.forEach(function (link) {
     link.addEventListener('click', function (event) {
       event.preventDefault();
-      smoothScroll(link.hash, 200);
+      smoothScroll(link.hash, 2000);
     });
   });
 }
