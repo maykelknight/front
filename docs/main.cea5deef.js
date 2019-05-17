@@ -197,6 +197,7 @@ require("../scss/main.scss");
 var navLinks = document.querySelectorAll(".nav-btn a");
 var sections = document.querySelectorAll("section");
 var navWrapper = document.getElementsByClassName("nav-wrapper")[0];
+var screenWidth = window.innerWidth > 0 ? window.innerWidth : screen.width;
 
 window.onload = function () {
   addClickEventsToNavbarLinks();
@@ -204,10 +205,16 @@ window.onload = function () {
   showNavigationMenuOnHamburgerClicked();
 };
 
-window.addEventListener("scroll", throttle(function () {
-  setNavbarClass();
-  markActiveNavbarLink();
-}, 100));
+if (!isOnMobile) {
+  window.addEventListener("scroll", throttle(function () {
+    setNavbarClass();
+    markActiveNavbarLink();
+  }, 100));
+}
+
+function isOnMobile() {
+  return screenWidth <= 768;
+}
 
 function throttle(callback, limit) {
   var wait = false; // Initially, we're not waiting
@@ -238,7 +245,8 @@ function setNavbarClass() {
 
 function smoothScroll(sectionTarget, duration) {
   var target = document.querySelector(sectionTarget);
-  var targetPosition = target.getBoundingClientRect().top + window.scrollY - 40;
+  var navbarWidth = isOnMobile() ? 0 : 40;
+  var targetPosition = target.getBoundingClientRect().top + window.scrollY - navbarWidth;
   var startPosition = window.pageYOffset;
   var distance = targetPosition - startPosition;
   var startTime = null;
