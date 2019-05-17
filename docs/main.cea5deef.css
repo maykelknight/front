@@ -433,7 +433,7 @@ h3 {
           height: 2px;
           background: #000;
           border-radius: 2px;
-          margin-left: 8px; }
+          margin: 0 auto; }
           .nav-wrapper .nav .hamburger-toggle i:nth-of-type(1) {
             margin-top: 2px; }
           .nav-wrapper .nav .hamburger-toggle i:nth-of-type(2) {

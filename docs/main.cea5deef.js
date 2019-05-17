@@ -197,7 +197,6 @@ require("../scss/main.scss");
 var navLinks = document.querySelectorAll(".nav-btn a");
 var sections = document.querySelectorAll("section");
 var navWrapper = document.getElementsByClassName("nav-wrapper")[0];
-var menuIsToggledOn = false;
 
 window.onload = function () {
   addClickEventsToNavbarLinks();
@@ -296,6 +295,7 @@ function hideNavigationMenuOnLinkClick() {
   document.querySelectorAll('.nav-btn > a').forEach(function (item) {
     item.addEventListener('click', function () {
       document.querySelector(".nav-btns-wrapper").classList.toggle('active');
+      document.querySelector(".hamburger-toggle").classList.toggle('active');
     });
   });
 }
