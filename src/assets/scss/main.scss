@@ -18,10 +18,10 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   -webkit-backface-visibility: hidden;
-  max-width: 1920px;
+  max-width: 1920px
 }
 
 html {
@@ -56,4 +56,14 @@ html {
 .mt50 {
   margin-top: 50px;
 }
+
+@media screen and (max-width: 992px) {
+  .section-head {
+    margin-top: 0;
+  }
+  .divider {
+    margin: 10px auto;
+  }
+}
+
 //background: linear-gradient(135deg,#63c986 20%,#6eb5f3 80%);

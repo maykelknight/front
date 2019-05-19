@@ -51,6 +51,8 @@ function smoothScroll (sectionTarget, duration) {
     var distance = targetPosition - startPosition;
     var startTime = null;
 
+    console.log('target.getBoundingClientRect()', target.getBoundingClientRect());
+    console.log('startPosition', startPosition);
     function animation (currentTime) {
         if (startTime === null) {
             startTime = currentTime;
@@ -90,7 +92,7 @@ function addClickEventsToNavbarLinks () {
     navLinks.forEach(function (link) {
         link.addEventListener('click', function (event) {
             event.preventDefault();
-            smoothScroll(link.hash, 200)
+            smoothScroll(link.hash, 100)
         })
     });
 }

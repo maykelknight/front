@@ -612,7 +612,7 @@ h3 {
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   -webkit-backface-visibility: hidden;
   max-width: 1920px; }
@@ -645,6 +645,12 @@ html {
 
 .mt50 {
   margin-top: 50px; }
+
+@media screen and (max-width: 992px) {
+  .section-head {
+    margin-top: 0; }
+  .divider {
+    margin: 10px auto; } }
 
 
 /*# sourceMappingURL=/main.cea5deef.css.map */
