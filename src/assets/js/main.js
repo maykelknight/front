@@ -9,6 +9,7 @@ window.onload = function() {
     addClickEventsToNavbarLinks();
     hideNavigationMenuOnLinkClick();
     showNavigationMenuOnHamburgerClicked();
+    hideLoader();
 };
 
 window.addEventListener("scroll", throttle(function () {
@@ -119,4 +120,8 @@ function showNavigationMenuOnHamburgerClicked () {
             hideNavigationMenuOnLinkClick();
         }
     })
+}
+
+function hideLoader() {
+    document.querySelector('.preloader-wrapper').style.display = 'none';
 }

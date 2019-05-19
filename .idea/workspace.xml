@@ -2,81 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="483893ce-76ac-4ace-ab6e-d4a8edc4cfe8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/components/loader.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/about-bckg.00646352.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/about-bckg.e61d9ad1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/bckg-experience.7c03eb89.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/bckg-experience.9d9c3db1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/heading2.b5b8091a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/heading2.bd77e152.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/ico-back.1382befb.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/ico-back.250d1f0a.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/ico-box.82d51a52.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/ico-box.a3b371ed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/ico-plant.dcc33815.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/ico-plant.fde0d58a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/ico-school.31a4b51e.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/ico-school.ed44eacf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/img1.0eb8d396.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/img1.7f91271f.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/img2.270bc4c7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/img2.f2fd0b58.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/img3.0c473725.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/img3.c88d4144.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/img4.788d9fad.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/img4.cb2f2580.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/main.0cc7868b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/main.0cc7868b.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/main.2b755954.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/main.2b755954.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/main.2b755954.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/main.2b755954.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/main.2c742220.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/main.2c742220.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/main.58bb64c5.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/main.58bb64c5.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/main.58c38845.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/main.58c38845.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/main.69a8279e.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/main.69a8279e.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/main.71a80da5.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/main.71a80da5.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/main.b820dc2b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/main.b820dc2b.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/main.b8990d05.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/main.b8990d05.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/main.cea5deef.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/main.cea5deef.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/main.cea5deef.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/main.cea5deef.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/main.e2424e44.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/main.e2424e44.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/main.fa088a03.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/main.fa088a03.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/navigation.f63c986f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/navigation.f63c986f.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/navigation.f84e1103.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/navigation.f84e1103.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/showcase.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/showcase1.0eb8d396.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/showcase1.10fe961a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/showcase2.270bc4c7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/showcase2.91c4e52f.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/showcase3a.82b2d47a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/showcase3a.cb2f2580.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/skills1.2214a20e.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/skills1.2a0cfc7a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/skills2.72b978d4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/skills2.b8cb39a2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/skills3.4ce2a192.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/skills3.cd6b9681.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/skills4.2f291dff.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/skills4.b85fb2fc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.cea5deef.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/main.cea5deef.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.cea5deef.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/main.cea5deef.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.cea5deef.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/main.cea5deef.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.cea5deef.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/main.cea5deef.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -91,19 +26,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/scss/components/navbar.scss">
+        <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1090">
-              <caret line="133" column="28" selection-start-line="133" selection-start-column="28" selection-end-line="133" selection-end-column="28" />
+            <state relative-caret-position="236">
+              <caret line="19" column="29" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.html">
+        <entry file="file://$PROJECT_DIR$/src/assets/scss/components/loader.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="50" column="32" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
+            <state relative-caret-position="136">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -117,20 +52,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/assets/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            <state relative-caret-position="136">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/assets/scss/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
+            <state relative-caret-position="221">
+              <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -150,6 +85,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -168,10 +104,11 @@
         <option value="$PROJECT_DIR$/src/assets/scss/sections/showcase.scss" />
         <option value="$PROJECT_DIR$/src/assets/js/navigation.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/assets/scss/components/navbar.scss" />
-        <option value="$PROJECT_DIR$/src/assets/js/main.js" />
         <option value="$PROJECT_DIR$/src/assets/scss/main.scss" />
+        <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/assets/scss/components/loader.scss" />
+        <option value="$PROJECT_DIR$/src/assets/js/main.js" />
       </list>
     </option>
   </component>
@@ -215,14 +152,6 @@
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="scss" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Szybki Start" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Szybki Start" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -232,6 +161,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -270,12 +200,12 @@
       <workItem from="1558039782185" duration="329000" />
       <workItem from="1558073795925" duration="246000" />
       <workItem from="1558117200252" duration="9257000" />
-      <workItem from="1558272403688" duration="321000" />
+      <workItem from="1558272403688" duration="2031000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31802000" />
+    <option name="totallyTimeSpent" value="33512000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
@@ -441,24 +371,10 @@
     <entry file="file://$PROJECT_DIR$/src/assets/js/navigation.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/components/navbar.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="50" column="32" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="72" selection-start-line="9" selection-start-column="72" selection-end-line="9" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        <state relative-caret-position="-1090">
+          <caret line="133" column="28" selection-start-line="133" selection-start-column="28" selection-end-line="133" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -469,17 +385,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/components/navbar.scss">
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1090">
-          <caret line="133" column="28" selection-start-line="133" selection-start-column="28" selection-end-line="133" selection-end-column="28" />
+        <state relative-caret-position="221">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/main.scss">
+    <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
+        <state relative-caret-position="236">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="72" selection-start-line="9" selection-start-column="72" selection-end-line="9" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/components/loader.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
         </state>
       </provider>
     </entry>
