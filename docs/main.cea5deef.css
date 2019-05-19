@@ -610,7 +610,7 @@ h3 {
     border: 1px solid #25b7a4; }
 
 .preloader-wrapper {
-  background-color: #242F3F;
+  background-color: #015c50;
   width: 100%;
   height: 100%;
   margin: 0 auto;
@@ -634,7 +634,7 @@ h3 {
   vertical-align: top;
   display: inline-block;
   width: 100%;
-  background-color: #ffff;
+  background-color: #fff;
   -webkit-animation: loader-inner 2s infinite ease-in;
           animation: loader-inner 2s infinite ease-in; }
 
