@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\img\\heading2.jpg":[["heading2.b5b8091a.jpg","assets/img/heading2.jpg"],"assets/img/heading2.jpg"],"./..\\img\\about-bckg.jpg":[["about-bckg.00646352.jpg","assets/img/about-bckg.jpg"],"assets/img/about-bckg.jpg"],"./..\\img\\bckg-experience.jpg":[["bckg-experience.9d9c3db1.jpg","assets/img/bckg-experience.jpg"],"assets/img/bckg-experience.jpg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/js/main.js":[function(require,module,exports) {
+},{"./..\\img\\heading2.jpg":[["heading2.b5b8091a.jpg","assets/img/heading2.jpg"],"assets/img/heading2.jpg"],"./..\\img\\about-bckg.jpg":[["about-bckg.00646352.jpg","assets/img/about-bckg.jpg"],"assets/img/about-bckg.jpg"],"./..\\img\\bckg-experience.jpg":[["bckg-experience.9d9c3db1.jpg","assets/img/bckg-experience.jpg"],"assets/img/bckg-experience.jpg"],"./..\\img\\bg-01.jpg":[["bg-01.77e0e128.jpg","assets/img/bg-01.jpg"],"assets/img/bg-01.jpg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/js/main.js":[function(require,module,exports) {
 "use strict";
 
 require("../scss/main.scss");
@@ -323,7 +323,8 @@ function showNavigationMenuOnHamburgerClicked() {
   });
 }
 
-function hideLoader() {// document.querySelector('.preloader-wrapper').style.display = 'none';
+function hideLoader() {
+  document.querySelector('.preloader-wrapper').style.display = 'none';
 }
 },{"../scss/main.scss":"assets/scss/main.scss"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
@@ -353,7 +354,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64069" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50707" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

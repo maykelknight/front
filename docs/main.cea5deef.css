@@ -266,6 +266,95 @@ h3 {
         justify-content: space-between;
         width: 100%; }
 
+.test {
+  background: #dcdfdf; }
+
+.contact {
+  max-width: 1110px;
+  margin: 0 auto; }
+  .contact .contact-wrapper {
+    display: flex;
+    align-items: center; }
+    .contact .contact-wrapper .contact-image {
+      width: 100%;
+      height: 500px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      background: url("/bg-01.77e0e128.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      z-index: 1; }
+      .contact .contact-wrapper .contact-image:before {
+        content: "";
+        display: block;
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: black;
+        opacity: 0.6; }
+      .contact .contact-wrapper .contact-image .contact-data {
+        color: #fff;
+        margin-left: 50px; }
+        .contact .contact-wrapper .contact-image .contact-data__description {
+          color: #25b7a4; }
+    .contact .contact-wrapper .contact-form-wrapper {
+      width: 100%;
+      height: 500px;
+      background: #fff;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      flex-direction: column; }
+      .contact .contact-wrapper .contact-form-wrapper .form-tile {
+        margin-top: 20px;
+        margin-bottom: 30px; }
+      .contact .contact-wrapper .contact-form-wrapper .contact-form {
+        width: 100%; }
+        .contact .contact-wrapper .contact-form-wrapper .contact-form .contact-field {
+          position: relative;
+          margin: 10px 0; }
+          .contact .contact-wrapper .contact-form-wrapper .contact-form .contact-field__input {
+            width: 100%;
+            outline: none;
+            background: transparent;
+            border: none;
+            padding-bottom: 5px;
+            border-bottom: 2px solid #dcdfdf;
+            margin-bottom: 20px; }
+            .contact .contact-wrapper .contact-form-wrapper .contact-form .contact-field__input:focus, .contact .contact-wrapper .contact-form-wrapper .contact-form .contact-field__input:valid {
+              border-bottom: 1px solid #25b7a4; }
+              .contact .contact-wrapper .contact-form-wrapper .contact-form .contact-field__input:focus ~ label, .contact .contact-wrapper .contact-form-wrapper .contact-form .contact-field__input:valid ~ label {
+                top: -35px;
+                left: 0;
+                font-size: 12px;
+                font-weight: bold;
+                color: #25b7a4;
+                letter-spacing: 2px; }
+            .contact .contact-wrapper .contact-form-wrapper .contact-form .contact-field__input--message {
+              height: 100px; }
+          .contact .contact-wrapper .contact-form-wrapper .contact-form .contact-field__label {
+            color: #dcdfdf;
+            position: absolute;
+            top: -10px;
+            transition: .5s;
+            line-height: 50px;
+            pointer-events: none; }
+          .contact .contact-wrapper .contact-form-wrapper .contact-form .contact-field__button {
+            width: 100%; }
+            .contact .contact-wrapper .contact-form-wrapper .contact-form .contact-field__button .submit-button {
+              margin: 25px auto 0 auto;
+              display: block; }
+  @media screen and (max-width: 768px) {
+    .contact .contact-wrapper {
+      flex-wrap: wrap;
+      flex-direction: column; } }
+
 .showcase-page .background-box {
   height: 100vh;
   background: #eeeeee;
