@@ -323,8 +323,7 @@ function showNavigationMenuOnHamburgerClicked() {
   });
 }
 
-function hideLoader() {
-  document.querySelector('.preloader-wrapper').style.display = 'none';
+function hideLoader() {// document.querySelector('.preloader-wrapper').style.display = 'none';
 }
 },{"../scss/main.scss":"assets/scss/main.scss"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];

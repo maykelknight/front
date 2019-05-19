@@ -123,5 +123,5 @@ function showNavigationMenuOnHamburgerClicked () {
 }
 
 function hideLoader() {
-    document.querySelector('.preloader-wrapper').style.display = 'none';
+    // document.querySelector('.preloader-wrapper').style.display = 'none';
 }

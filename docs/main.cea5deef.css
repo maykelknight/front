@@ -638,6 +638,14 @@ h3 {
   -webkit-animation: loader-inner 2s infinite ease-in;
           animation: loader-inner 2s infinite ease-in; }
 
+.preloader-text {
+  display: block;
+  position: relative;
+  top: 55%;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase; }
+
 @-webkit-keyframes loader {
   0% {
     -webkit-transform: rotate(0deg);
