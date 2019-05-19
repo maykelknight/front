@@ -77,6 +77,7 @@
             padding-bottom: 5px;
             border-bottom: 2px solid $gray-dark;
             margin-bottom: 20px;
+            border-radius: 0;
 
             &:focus, &:valid {
               border-bottom: 1px solid $default;
@@ -116,8 +117,6 @@
         }
 
       }
-
-
     }
   }
 

@@ -2,6 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="483893ce-76ac-4ace-ab6e-d4a8edc4cfe8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.2b755954.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/main.2b755954.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.2b755954.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/main.2b755954.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.cea5deef.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/main.cea5deef.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.cea5deef.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/main.cea5deef.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.cea5deef.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/main.cea5deef.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/navigation.f63c986f.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/navigation.f63c986f.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/navigation.f63c986f.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/navigation.f63c986f.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/showcase.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/showcase.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/sections/contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/sections/contact.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
@@ -19,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="295" column="29" selection-start-line="295" selection-start-column="29" selection-end-line="295" selection-end-column="29" />
+            <state relative-caret-position="367">
+              <caret line="332" column="91" selection-start-line="332" selection-start-column="91" selection-end-line="332" selection-end-column="91" />
             </state>
           </provider>
         </entry>
@@ -28,8 +41,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/assets/scss/sections/contact.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="132" column="1" selection-start-line="132" selection-start-column="1" selection-end-line="132" selection-end-column="1" />
+            <state relative-caret-position="381">
+              <caret line="80" selection-start-line="80" selection-end-line="80" />
             </state>
           </provider>
         </entry>
@@ -255,12 +268,12 @@
       <workItem from="1558039782185" duration="329000" />
       <workItem from="1558073795925" duration="246000" />
       <workItem from="1558117200252" duration="9257000" />
-      <workItem from="1558272403688" duration="13913000" />
+      <workItem from="1558272403688" duration="14059000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45394000" />
+    <option name="totallyTimeSpent" value="45540000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
@@ -454,13 +467,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/sections/contact.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="132" column="1" selection-start-line="132" selection-start-column="1" selection-end-line="132" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/scss/components/loader.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -475,10 +481,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/sections/contact.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="295" column="29" selection-start-line="295" selection-start-column="29" selection-end-line="295" selection-end-column="29" />
+        <state relative-caret-position="367">
+          <caret line="332" column="91" selection-start-line="332" selection-start-column="91" selection-end-line="332" selection-end-column="91" />
         </state>
       </provider>
     </entry>
