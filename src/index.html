@@ -3,14 +3,15 @@
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <title>MC</title>
-    <meta name="description" content="Interaktywny poradnik szybkiego startu dla Brackets.">
+    <meta content="Interaktywny poradnik szybkiego startu dla Brackets." name="description">
 
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, user-scalable=0">
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1, user-scalable=0" name="viewport">
     <script src="assets/js/navigation.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
 
 </head>
 <script src="./assets/js/navigation.js"></script>
@@ -31,7 +32,7 @@
     <nav class="nav-wrapper">
         <div class="nav container">
 
-            <button type="button" class="hamburger-toggle">
+            <button class="hamburger-toggle" type="button">
                 <i></i>
                 <i></i>
                 <i></i>
@@ -41,23 +42,23 @@
             <div class="nav-btns-wrapper">
                 <ul class="nav-btns">
                     <li class="nav-btn">
-                        <a href="#banner">Home</a>
+                        <a data-scroll href="#banner">Home</a>
                     </li>
                     <li class="nav-btn">
-                        <a href="#resume">Życiorys</a>
+                        <a data-scroll href="#resume">Życiorys</a>
                     </li>
                     <li class="nav-btn">
-                        <a href="#experience">Umiejętności</a>
+                        <a data-scroll href="#experience">Umiejętności</a>
                     </li>
                     <li class="nav-btn">
-                        <a href="#skills">Skille</a>
+                        <a data-scroll href="#skills">Skille</a>
                     </li>
                     <li class="nav-btn">
-                        <a href="#showcase">Showcase</a>
+                        <a data-scroll href="#showcase">Showcase</a>
                     </li>
-                    <!--<li class="nav-btn">-->
-                    <!--<a href="#contact">Kontakt</a>-->
-                    <!--</li>-->
+                    <li class="nav-btn">
+                        <a href="#contact">Kontakt</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -65,7 +66,7 @@
     <div class="container banner-text">
         <p class="banner-text__label is-size-2-mobile">MICHAŁ CZAPKOWICZ</p>
         <p class="banner-text__description">Frontend developer</p>
-        <button class="primary-btn mt50">Popracujmy razem</button>
+        <button class="primary-btn mt50 lets-work-together">Popracujmy razem</button>
     </div>
 </section>
 
@@ -107,19 +108,19 @@
         </div>
         <ul>
             <li>
-                <div class="content">
+                <div class="content slide-left">
                     <h3>SOFTWARE DEVELOPER</h3>
                     <p class="time">Nonstop 10.11.2012</p>
                 </div>
             </li>
             <li>
-                <div class="content">
+                <div class="content slide-right">
                     <h3>FRONTEND DEVELOPER</h3>
                     <p class="time">Nonstop 10.11.2016</p>
                 </div>
             </li>
             <li>
-                <div class="content">
+                <div class="content slide-left">
                     <div class="content">
                         <h3>FREELANCER</h3>
                         <p class="time">Nonstop 10.11.2016</p>
@@ -141,20 +142,20 @@
         </div>
         <ul>
             <li>
-                <div class="content">
+                <div class="content slide-left">
                     <h3>SOFTWARE DEVELOPER</h3>
                     <p class="time">Nonstop 10.11.2012</p>
                 </div>
             </li>
             <li>
-                <div class="content">
+                <div class="content slide-right">
                     <h3>FRONTEND DEVELOPER</h3>
                     <p class="time">Nonstop 10.11.2016</p>
                 </div>
             </li>
             <li>
                 <div class="content">
-                    <div class="content">
+                    <div class="content slide-left">
                         <h3>FREELANCER</h3>
                         <p class="time">Nonstop 10.11.2016</p>
                     </div>
@@ -264,7 +265,7 @@
                     <h4>Tytuł</h4>
                     <p>Testowy opis</p>
                 </div>
-                <a href="showcase.html" class="primary-btn description__btn">Zobacz</a>
+                <a class="primary-btn description__btn" href="showcase.html">Zobacz</a>
             </div>
         </div>
 
@@ -292,7 +293,7 @@
     </div>
 </section>
 
-<div class="test">
+<div id="contact">
     <section class="container contact">
         <div class="contact-wrapper">
             <div class="contact-image section">
@@ -308,20 +309,20 @@
             <div class="contact-form-wrapper">
 
                 <p class="is-size-4 form-tile">Wyślij mi wiadomość</p>
-                <form class="contact-form" action="action_page.php">
+                <form action="action_page.php" class="contact-form">
 
                     <div class="contact-field">
-                        <input class="contact-field__input" type="text" id="name" name="name" required>
+                        <input class="contact-field__input" id="name" name="name" required type="text">
                         <label class="contact-field__label" for="name">First Name</label>
                     </div>
 
                     <div class="contact-field">
-                        <input class="contact-field__input" type="text" id="email" name="email" required>
+                        <input class="contact-field__input" id="email" name="email" required type="text">
                         <label class="contact-field__label" for="email">Last Name</label>
                     </div>
 
                     <div class="contact-field">
-                        <input class="contact-field__input" type="text" id="subject" name="subject" required>
+                        <input class="contact-field__input" id="subject" name="subject" required type="text">
                         <label class="contact-field__label" for="subject">Subject</label>
                     </div>
 
@@ -339,8 +340,65 @@
     </section>
 </div>
 
-<!--</footer>-->
+<footer class="foot">
+    All rights reserved
+</footer>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.js"></script>
 
 <script src="assets/js/main.js"></script>
+<script>
+    var scroll = new SmoothScroll('a[href*="#"]', {
+        speed: 100,
+        speedAsDuration: true,
+        easing: 'Linear'
+    });
+
+    var slideLeft = TweenMax.from('.slide-left', 1, {
+        xPercent: -10,
+        opacity: 0,
+        ease: Back.easeOut
+    });
+
+    var slideRight = TweenMax.from('.slide-right', 1, {
+        xPercent: 10,
+        opacity: 0,
+        ease: Back.easeOut
+    });
+
+    var slideTop = TweenMax.from('.title-icon', 2, {
+        yPercent: -150,
+        opacity: 0,
+        ease: Back.easeOut
+    });
+
+    var controller = new ScrollMagic.Controller();
+
+    var scene = new ScrollMagic.Scene({
+        triggerElement: '.slide-left',
+        triggerHook: .9
+    })  .setTween(slideLeft)
+        .reverse(false)
+        .addTo(controller);
+
+    var scene2 = new ScrollMagic.Scene({
+        triggerElement: '.slide-right',
+        triggerHook: .9
+    })  .setTween(slideRight)
+        .reverse(false)
+        .addTo(controller);
+
+ var scene2 = new ScrollMagic.Scene({
+        triggerElement: '.title-icon',
+        triggerHook: .9
+    })  .setTween(slideTop)
+        .reverse(false)
+        .addTo(controller);
+
+
+</script>
 </body>
 </html>

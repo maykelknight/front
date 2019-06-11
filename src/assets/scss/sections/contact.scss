@@ -1,6 +1,7 @@
 
 .test {
   background: $gray-dark;
+  padding: 40px 0;
 }
 .contact {
   max-width: 1110px;
@@ -76,9 +77,9 @@
             border: none;
             padding-bottom: 5px;
             border-bottom: 2px solid $gray-dark;
-            margin-bottom: 20px;
+            margin-bottom: 16px;
             border-radius: 0;
-
+            font-size: 20px;
             &:focus, &:valid {
               border-bottom: 1px solid $default;
 

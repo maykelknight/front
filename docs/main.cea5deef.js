@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\img\\heading2.jpg":[["heading2.b5b8091a.jpg","assets/img/heading2.jpg"],"assets/img/heading2.jpg"],"./..\\img\\about-bckg.jpg":[["about-bckg.00646352.jpg","assets/img/about-bckg.jpg"],"assets/img/about-bckg.jpg"],"./..\\img\\bckg-experience.jpg":[["bckg-experience.9d9c3db1.jpg","assets/img/bckg-experience.jpg"],"assets/img/bckg-experience.jpg"],"./..\\img\\bg-01.jpg":[["bg-01.77e0e128.jpg","assets/img/bg-01.jpg"],"assets/img/bg-01.jpg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/js/main.js":[function(require,module,exports) {
+},{"./..\\img\\heading2-small.jpg":[["heading2-small.540b38d6.jpg","assets/img/heading2-small.jpg"],"assets/img/heading2-small.jpg"],"./..\\img\\about-bckg.jpg":[["about-bckg.00646352.jpg","assets/img/about-bckg.jpg"],"assets/img/about-bckg.jpg"],"./..\\img\\bckg-experience.jpg":[["bckg-experience.9d9c3db1.jpg","assets/img/bckg-experience.jpg"],"assets/img/bckg-experience.jpg"],"./..\\img\\bg-01.jpg":[["bg-01.77e0e128.jpg","assets/img/bg-01.jpg"],"assets/img/bg-01.jpg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/js/main.js":[function(require,module,exports) {
 "use strict";
 
 require("../scss/main.scss");
@@ -200,7 +200,7 @@ var navWrapper = document.getElementsByClassName("nav-wrapper")[0];
 var screenWidth = window.innerWidth > 0 ? window.innerWidth : screen.width;
 
 window.onload = function () {
-  addClickEventsToNavbarLinks();
+  // addClickEventsToNavbarLinks();
   hideNavigationMenuOnLinkClick();
   showNavigationMenuOnHamburgerClicked();
   hideLoader();
@@ -235,68 +235,23 @@ function throttle(callback, limit) {
 }
 
 function setNavbarClass() {
-  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
     navWrapper.classList.add('nav-scrolled');
   } else {
     navWrapper.classList.remove('nav-scrolled');
   }
 }
 
-function smoothScroll(sectionTarget, duration) {
-  var target = document.querySelector(sectionTarget);
-  var navbarWidth = isOnMobile() ? 0 : 40;
-  var targetPosition = target.getBoundingClientRect().top + window.scrollY - navbarWidth;
-  var startPosition = window.pageYOffset;
-  var distance = targetPosition - startPosition;
-  var startTime = null;
-  console.log('target.getBoundingClientRect()', target.getBoundingClientRect());
-  console.log('startPosition', startPosition);
-
-  function animation(currentTime) {
-    if (startTime === null) {
-      startTime = currentTime;
-    }
-
-    var timeElapsed = currentTime - startTime;
-    var run = easeAnimate(timeElapsed, startPosition, distance, duration);
-    window.scrollTo(0, run);
-
-    if (timeElapsed < duration) {
-      requestAnimationFrame(animation);
-    }
-
-    markActiveNavbarLink();
-  }
-
-  requestAnimationFrame(animation);
-}
-
-function easeAnimate(t, b, c, d) {
-  t /= d / 2;
-  if (t < 1) return c / 2 * t * t + b;
-  t--;
-  return -c / 2 * (t * (t - 2) - 1) + b;
-}
-
-function markActiveNavbarLink() {
+function markActiveNavbarLink(section) {
   var fromTop = window.scrollY;
   navLinks.forEach(function (link) {
     var section = document.querySelector(link.hash);
 
-    if (section.offsetTop - 60 <= fromTop && section.offsetTop - 60 + section.offsetHeight > fromTop) {
+    if (section.offsetTop - 100 <= fromTop && section.offsetTop - 100 + section.offsetHeight > fromTop && fromTop > 0) {
       link.classList.add("current");
     } else {
       link.classList.remove("current");
     }
-  });
-}
-
-function addClickEventsToNavbarLinks() {
-  navLinks.forEach(function (link) {
-    link.addEventListener('click', function (event) {
-      event.preventDefault();
-      smoothScroll(link.hash, 100);
-    });
   });
 }
 
@@ -354,7 +309,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57642" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54272" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

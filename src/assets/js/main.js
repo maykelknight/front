@@ -6,7 +6,7 @@ var navWrapper = document.getElementsByClassName("nav-wrapper")[0];
 var screenWidth = (window.innerWidth > 0) ? window.innerWidth : screen.width;
 
 window.onload = function() {
-    addClickEventsToNavbarLinks();
+    // addClickEventsToNavbarLinks();
     hideNavigationMenuOnLinkClick();
     showNavigationMenuOnHamburgerClicked();
     hideLoader();
@@ -35,66 +35,22 @@ function throttle (callback, limit) {
 }
 
 function setNavbarClass () {
-    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
         navWrapper.classList.add('nav-scrolled');
     } else {
         navWrapper.classList.remove('nav-scrolled');
     }
 }
 
-function smoothScroll (sectionTarget, duration) {
-
-    var target = document.querySelector(sectionTarget);
-
-    var navbarWidth = isOnMobile() ? 0 : 40;
-    var targetPosition = target.getBoundingClientRect().top + window.scrollY - navbarWidth;
-    var startPosition = window.pageYOffset;
-    var distance = targetPosition - startPosition;
-    var startTime = null;
-
-    console.log('target.getBoundingClientRect()', target.getBoundingClientRect());
-    console.log('startPosition', startPosition);
-    function animation (currentTime) {
-        if (startTime === null) {
-            startTime = currentTime;
-        }
-        var timeElapsed = currentTime - startTime;
-        var run = easeAnimate(timeElapsed, startPosition, distance, duration);
-        window.scrollTo(0, run);
-        if (timeElapsed < duration) {
-            requestAnimationFrame(animation);
-        }
-        markActiveNavbarLink();
-    }
-
-    requestAnimationFrame(animation);
-}
-
-function easeAnimate (t, b, c, d) {
-    t /= d / 2;
-    if (t < 1) return c / 2 * t * t + b;
-    t--;
-    return -c / 2 * (t * (t - 2) - 1) + b;
-}
-
-function markActiveNavbarLink () {
+function markActiveNavbarLink (section) {
     let fromTop = window.scrollY;
     navLinks.forEach(function (link) {
         let section = document.querySelector(link.hash);
-        if ((section.offsetTop - 60 <= fromTop) && (section.offsetTop - 60 + section.offsetHeight > fromTop)) {
+        if ((section.offsetTop - 100 <= fromTop) && (section.offsetTop - 100 + section.offsetHeight > fromTop) &&  fromTop > 0) {
             link.classList.add("current");
         } else {
             link.classList.remove("current");
         }
-    });
-}
-
-function addClickEventsToNavbarLinks () {
-    navLinks.forEach(function (link) {
-        link.addEventListener('click', function (event) {
-            event.preventDefault();
-            smoothScroll(link.hash, 100)
-        })
     });
 }
 

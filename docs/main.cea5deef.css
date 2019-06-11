@@ -8,7 +8,7 @@ h3 {
   font-size: 28px; }
 
 .banner {
-  background-image: url("/heading2.b5b8091a.jpg");
+  background-image: url("/heading2-small.540b38d6.jpg");
   background-attachment: fixed;
   height: 100vh;
   width: 100vw;
@@ -267,7 +267,8 @@ h3 {
         width: 100%; }
 
 .test {
-  background: #dcdfdf; }
+  background: #dcdfdf;
+  padding: 40px 0; }
 
 .contact {
   max-width: 1110px;
@@ -326,8 +327,9 @@ h3 {
             border: none;
             padding-bottom: 5px;
             border-bottom: 2px solid #dcdfdf;
-            margin-bottom: 20px;
-            border-radius: 0; }
+            margin-bottom: 16px;
+            border-radius: 0;
+            font-size: 20px; }
             .contact .contact-wrapper .contact-form-wrapper .contact-form .contact-field__input:focus, .contact .contact-wrapper .contact-form-wrapper .contact-form .contact-field__input:valid {
               border-bottom: 1px solid #25b7a4; }
               .contact .contact-wrapper .contact-form-wrapper .contact-form .contact-field__input:focus ~ label, .contact .contact-wrapper .contact-form-wrapper .contact-form .contact-field__input:valid ~ label {
@@ -355,6 +357,14 @@ h3 {
     .contact .contact-wrapper {
       flex-wrap: wrap;
       flex-direction: column; } }
+
+.foot {
+  height: 40px;
+  background: darkgrey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff; }
 
 .showcase-page .background-box {
   height: 100vh;
@@ -815,7 +825,7 @@ html {
   display: none; }
 
 .section-head {
-  margin-top: 40px;
+  margin-top: 50px;
   text-align: center; }
 
 .divider {
