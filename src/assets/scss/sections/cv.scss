@@ -6,7 +6,7 @@
     position: relative;
     margin: 0 auto;
     padding: 40px 0;
-    width: 1000px;
+    width: 800px;
 
     &:before {
       content: "";
@@ -14,7 +14,7 @@
       left: 50%;
       width: 2px;
       height: 100%;
-      background: #c5c5c5
+      background: $gray-dark2;
     }
 
     &.education {
@@ -28,7 +28,7 @@
       align-items: center;
 
       .title-box {
-        background: #ccc;
+        background: $gray-dark2;
         display: inline-block;
         padding: 5px 20px;
         margin-bottom: 60px;
@@ -59,7 +59,7 @@
       }
 
       .time {
-        color: #ccc;
+        color: $gray-dark2;
         font-size: 14px;
         margin-top: 10px;
       }

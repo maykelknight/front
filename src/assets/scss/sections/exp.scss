@@ -3,22 +3,21 @@
   background-image: url("../img/bckg-experience.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size:100% 800px;
+  background-size: 100% 800px;
 
   .section-head {
     margin-bottom: 40px;
-    color: #fff;
+    color: $white;
   }
 
   p {
-    color: #fff;
-    max-width: 800px;
+    color: $white;
     margin: 0 auto;
     letter-spacing: 0.5px;
+    max-width: 800px;
   }
 
   @media (max-width: 768px) {
     background-attachment: scroll;
   }
-
 }

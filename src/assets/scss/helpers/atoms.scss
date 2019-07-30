@@ -1,0 +1,36 @@
+
+.link {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.hidden {
+  display: none;
+}
+
+.section-head {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.divider {
+  width: 30px;
+  height: 4px;
+  margin: 20px auto;
+  margin-bottom: 80px;
+  background: $default;
+}
+
+.hide {
+  display: none;
+}
+
+
+@media screen and (max-width: 992px) {
+  .section-head {
+    margin-top: 0;
+  }
+  .divider {
+    margin: 10px auto;
+  }
+}

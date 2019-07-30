@@ -78,15 +78,9 @@ Array.prototype.forEach.call(skill, function (elem) {
     }
 
     var tl = new TimelineMax();
-    tl.from(picture, 0.5,
-        {opacity: 0},
 
-    );
-
-    tl.from(description, 0.5,
-        {y: -100, opacity: 0},
-
-    );
+    tl.from(picture, 2, { opacity: 0});
+    tl.from(description, 0.5, {x: -100, opacity: 0},'-=2');
 
     new ScrollMagic.Scene({
         triggerElement: elem,

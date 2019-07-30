@@ -1,29 +1,24 @@
 @import "../helpers/colors";
 
 .primary-btn {
-  color: #fff;
-  padding: 10px 52px;
+  color: $white;
+  padding: 10px 52px 12px 52px;
   background-color: $default;
   overflow: hidden;
   border-radius: 40px;
   font-size: 15px;
   font-weight: 600;
   display: inline-block;
-  border: none;
   vertical-align: middle;
   position: relative;
   z-index: 1;
   cursor: pointer;
   text-align: left;
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
   backface-visibility: hidden;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   outline: none;
   text-decoration: none;
+  border: 1px solid transparent;
 
   &:hover {
     background: none;

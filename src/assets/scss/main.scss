@@ -1,6 +1,7 @@
 @import "helpers/colors";
 @import "helpers/fonts";
 @import "helpers/spacing";
+@import "helpers/atoms";
 
 @import "sections/header";
 @import "sections/about";
@@ -28,45 +29,7 @@ body {
 }
 
 html {
-    scroll-behavior: smooth;
-}
-
-.link {
-  color: inherit; /* blue colors for links too */
-  text-decoration: inherit; /* no underline */
-}
-
-.hidden {
-  display: none;
-}
-
-.section-head {
-  margin-top: 50px;
-  text-align: center;
-}
-
-.divider {
-  width: 30px;
-  height: 4px;
-  margin: 20px auto;
-  margin-bottom: 80px;
-  background: $default;
-}
-
-.hide {
-  display: none;
-}
-.mt50 {
-  margin-top: 50px;
-}
-
-@media screen and (max-width: 992px) {
-  .section-head {
-    margin-top: 0;
-  }
-  .divider {
-    margin: 10px auto;
-  }
+   scroll-behavior: smooth;
 }
 
 //background: linear-gradient(135deg,#63c986 20%,#6eb5f3 80%);
