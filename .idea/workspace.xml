@@ -2,38 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="483893ce-76ac-4ace-ab6e-d4a8edc4cfe8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/img/me1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/me2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/me3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/showcase-travellers.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/animations.43c3df64.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/animations.43c3df64.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/animations.43c3df64.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/animations.43c3df64.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/animations.43c3df64.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/animations.43c3df64.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/animations.43c3df64.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/animations.43c3df64.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/main.2b755954.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/main.2b755954.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/main.cea5deef.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/main.cea5deef.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/main.cea5deef.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/main.cea5deef.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.2b755954.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/main.2b755954.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/main.cea5deef.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/main.cea5deef.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/navigation.f63c986f.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/navigation.f63c986f.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/showcase.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/showcase.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/sections/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/sections/about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/js/animations.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/animations.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/js/navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/helpers/atoms.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/components/buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/helpers/colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/helpers/colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/helpers/spacing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/helpers/spacing.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/sections/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/sections/about.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/sections/contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/sections/contact.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/sections/cv.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/sections/cv.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/sections/exp.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/sections/exp.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/sections/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/sections/footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/sections/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/sections/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/sections/showcase.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/sections/showcase.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.cea5deef.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/main.cea5deef.js.map" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -50,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="255" column="46" selection-start-line="255" selection-start-column="46" selection-end-line="255" selection-end-column="46" />
+            <state relative-caret-position="50">
+              <caret line="255" column="48" selection-start-line="255" selection-start-column="48" selection-end-line="255" selection-end-column="48" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#ul#0;n#div#2;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#1;n#section#5;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -169,6 +146,13 @@
               <item name="Szybki Start" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Szybki Start" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Szybki Start" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="scss" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -257,18 +241,19 @@
       <workItem from="1564384388000" duration="110000" />
       <workItem from="1564384552831" duration="486000" />
       <workItem from="1564425759268" duration="669000" />
-      <workItem from="1564513416542" duration="5491000" />
+      <workItem from="1564513416542" duration="6155000" />
+      <workItem from="1564556118361" duration="1064000" />
+      <workItem from="1564682253822" duration="1435000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96924000" />
+    <option name="totallyTimeSpent" value="100087000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20386904" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14434524" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -283,7 +268,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936078" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.34860885" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.23076923" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -344,8 +329,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/img4.cb2f2580.jpg" />
     <entry file="file://$PROJECT_DIR$/docs/navigation.f63c986f.js.map">
-      <provider editor-type-id="sourcemapFileViewerProvider" />
       <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="sourcemapFileViewerProvider" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/img/about-bckg.jpg">
       <provider selected="true" editor-type-id="images" />
@@ -432,9 +417,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/js/navigation.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/js/navigation.js" />
     <entry file="file://$PROJECT_DIR$/docs/navigation.f63c986f.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3494">
@@ -553,10 +536,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/helpers/colors.scss">
+    <entry file="file://$PROJECT_DIR$/src/assets/img/showcase-travellers.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="10" selection-start-line="7" selection-end-line="7" selection-end-column="10" />
+        <state relative-caret-position="50">
+          <caret line="255" column="48" selection-start-line="255" selection-start-column="48" selection-end-line="255" selection-end-column="48" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#ul#0;n#div#2;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#1;n#section#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#2;n#section#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -567,18 +558,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/showcase-travellers.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/helpers/colors.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="255" column="46" selection-start-line="255" selection-start-column="46" selection-end-line="255" selection-end-column="46" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#ul#0;n#div#2;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#1;n#section#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#2;n#section#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="7" column="10" selection-start-line="7" selection-end-line="7" selection-end-column="10" />
         </state>
       </provider>
     </entry>
