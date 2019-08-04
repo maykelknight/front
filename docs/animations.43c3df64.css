@@ -715,6 +715,14 @@ h3 {
     background: none;
     color: #25b7a4;
     border: 1px solid #25b7a4; }
+  .primary-btn.-empty {
+    background: none;
+    border: 1px solid #25b7a4;
+    color: #25b7a4; }
+    .primary-btn.-empty:hover {
+      background-color: #25b7a4;
+      color: #fff;
+      border: 1px solid #25b7a4; }
 
 .preloader-wrapper {
   background-color: #25b7a4;
