@@ -1,4 +1,5 @@
 import '../scss/main.scss'
+
 window.onload = function() {
     document.querySelector('.preloader-wrapper').style.display = 'none';
 };
@@ -15,7 +16,6 @@ Array.prototype.forEach.call(slideLeftItems, function (elem) {
     tl.fromTo(elem, 0.8,
         {x: -100, opacity: 0},
         {x: 0, opacity: 1, ease: Power2.EaseInOut},
-        // {x: 0, opacity: 1, ease: Power2.EaseInOut}
     );
     new ScrollMagic.Scene({
         triggerElement: elem,
@@ -93,69 +93,8 @@ Array.prototype.forEach.call(skill, function (elem) {
 
 
 var t2 = new TimelineMax();
-
 t2.from('.background-box', 1, {x: -900});
-// t2.from('.go-back-wrapper', 0.5 , {y: -200});
-
 t2.from('.description__heading', 0.5 , {y: -40, opacity: 0},"-=0.8");
 t2.from('.description__details', 0.5 , {y: 40, opacity: 0}, "-=0.8");
-
 t2.from('.description__link', 0.5 , {opacity: 0}, "-=1");
-
 t2.from('.card', 0.5 , {x: -50, opacity: 0}, "-=0.5");
-
-
-// var slideLeft = TweenMax.from('.go-back-wrapper', 1, {
-//     xPercent: -10,
-//     opacity: 0,
-//     ease: Back.easeOut
-// });
-//
-// var card = TweenMax.from('.card', 1, {
-//     yPercent: -50,
-//     opacity: 0,
-//     ease: Back.easeOut
-// });
-
-// var scroll = new SmoothScroll('a[href*="#"]', {
-//     speed: 100,
-//     speedAsDuration: true,
-//     easing: 'Linear'
-// });
-
-// var slideRight = TweenMax.from('.slide-right', 1, {
-//     xPercent: 10,
-//     opacity: 0,
-//     ease: Back.easeOut
-// });
-
-// var slideTop = new TimelineMax({paused: true});
-//
-// var slideTop = TweenMax.from('.title-icon', 5, {
-//     yPercent: -150,
-//     opacity: 0,
-//     ease: Back.easeOut
-// });
-
-
-// var scene = new ScrollMagic.Scene({
-//     triggerElement: '.slide-left',
-//     triggerHook: .9
-// }).setTween(slideLeft)
-//     .reverse(false)
-//     .addTo(controller);
-
-// var scene2 = new ScrollMagic.Scene({
-//     triggerElement: '.slide-right',
-//     triggerHook: .9
-// }).setTween(slideRight)
-//     .reverse(false)
-//     .addTo(controller);
-//
-// var scene2 = new ScrollMagic.Scene({
-//     triggerElement: '.title-icon',
-//     triggerHook: .9
-// }).setTween(slideTop)
-//
-//     .addTo(controller);
-

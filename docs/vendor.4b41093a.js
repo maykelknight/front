@@ -189,123 +189,11 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\img\\heading2-small.jpg":[["heading2-small.540b38d6.jpg","assets/img/heading2-small.jpg"],"assets/img/heading2-small.jpg"],"./..\\img\\bckg-experience.jpg":[["bckg-experience.9d9c3db1.jpg","assets/img/bckg-experience.jpg"],"assets/img/bckg-experience.jpg"],"./..\\img\\bg-01.jpg":[["bg-01.77e0e128.jpg","assets/img/bg-01.jpg"],"assets/img/bg-01.jpg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/js/animations.js":[function(require,module,exports) {
+},{"./..\\img\\heading2-small.jpg":[["heading2-small.540b38d6.jpg","assets/img/heading2-small.jpg"],"assets/img/heading2-small.jpg"],"./..\\img\\bckg-experience.jpg":[["bckg-experience.9d9c3db1.jpg","assets/img/bckg-experience.jpg"],"assets/img/bckg-experience.jpg"],"./..\\img\\bg-01.jpg":[["bg-01.77e0e128.jpg","assets/img/bg-01.jpg"],"assets/img/bg-01.jpg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"showcase/vendor/vendor.js":[function(require,module,exports) {
 "use strict";
 
-require("../scss/main.scss");
-
-window.onload = function () {
-  document.querySelector('.preloader-wrapper').style.display = 'none';
-};
-
-var slideLeftItems = document.getElementsByClassName('slide-left');
-var slideRightItems = document.getElementsByClassName('slide-right');
-var titleIcon = document.getElementsByClassName('title-icon');
-var skill = document.getElementsByClassName('skill');
-var controller = new ScrollMagic.Controller();
-Array.prototype.forEach.call(slideLeftItems, function (elem) {
-  var tl = new TimelineMax();
-  tl.fromTo(elem, 0.8, {
-    x: -100,
-    opacity: 0
-  }, {
-    x: 0,
-    opacity: 1,
-    ease: Power2.EaseInOut
-  });
-  new ScrollMagic.Scene({
-    triggerElement: elem,
-    triggerHook: 0.9,
-    reverse: false
-  }).setTween(tl).addTo(controller);
-});
-Array.prototype.forEach.call(slideRightItems, function (elem) {
-  var tl = new TimelineMax();
-  tl.fromTo(elem, 0.8, {
-    x: 100,
-    opacity: 0
-  }, {
-    x: 0,
-    opacity: 1,
-    ease: Power2.EaseInOut
-  });
-  new ScrollMagic.Scene({
-    triggerElement: elem,
-    triggerHook: 1,
-    reverse: false
-  }).setTween(tl).addTo(controller);
-});
-Array.prototype.forEach.call(titleIcon, function (elem) {
-  var tl = new TimelineMax();
-  tl.fromTo(elem, 1, {
-    y: -100,
-    opacity: 1,
-    scale: 0
-  }, {
-    y: 0,
-    opacity: 1,
-    scale: 1,
-    ease: Power2.EaseInOut
-  });
-  new ScrollMagic.Scene({
-    triggerElement: elem,
-    triggerHook: 1,
-    reverse: false
-  }).setTween(tl).addTo(controller);
-});
-Array.prototype.forEach.call(skill, function (elem) {
-  console.log(elem.childNodes);
-  var picture = null;
-  var description = null;
-
-  for (var i = 0; i < elem.childNodes.length; i++) {
-    if (elem.childNodes[i].className === "skill__picture") {
-      picture = elem.childNodes[i];
-      break;
-    }
-  }
-
-  for (var i = 0; i < elem.childNodes.length; i++) {
-    if (elem.childNodes[i].className === "skill__description") {
-      description = elem.childNodes[i];
-      break;
-    }
-  }
-
-  var tl = new TimelineMax();
-  tl.from(picture, 2, {
-    opacity: 0
-  });
-  tl.from(description, 0.5, {
-    x: -100,
-    opacity: 0
-  }, '-=2');
-  new ScrollMagic.Scene({
-    triggerElement: elem,
-    triggerHook: 0.8,
-    reverse: false
-  }).setTween(tl).addTo(controller);
-});
-var t2 = new TimelineMax();
-t2.from('.background-box', 1, {
-  x: -900
-});
-t2.from('.description__heading', 0.5, {
-  y: -40,
-  opacity: 0
-}, "-=0.8");
-t2.from('.description__details', 0.5, {
-  y: 40,
-  opacity: 0
-}, "-=0.8");
-t2.from('.description__link', 0.5, {
-  opacity: 0
-}, "-=1");
-t2.from('.card', 0.5, {
-  x: -50,
-  opacity: 0
-}, "-=0.5");
-},{"../scss/main.scss":"assets/scss/main.scss"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+require("../../assets/scss/main.scss");
+},{"../../assets/scss/main.scss":"assets/scss/main.scss"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -508,5 +396,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../node_modules/parcel-bundler/src/builtins/hmr-runtime.js","assets/js/animations.js"], null)
-//# sourceMappingURL=/animations.43c3df64.js.map
+},{}]},{},["../node_modules/parcel-bundler/src/builtins/hmr-runtime.js","showcase/vendor/vendor.js"], null)
+//# sourceMappingURL=/vendor.4b41093a.js.map
