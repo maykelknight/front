@@ -56,11 +56,12 @@ Array.prototype.forEach.call(titleIcon, function (elem) {
         .addTo(controller)
 });
 
+
+//------ skills
 Array.prototype.forEach.call(skill, function (elem) {
 
-    console.log(elem.childNodes)
-
     var picture = null;
+
     var description = null;
 
     for (var i = 0; i < elem.childNodes.length; i++) {
@@ -91,7 +92,7 @@ Array.prototype.forEach.call(skill, function (elem) {
         .addTo(controller)
 });
 
-
+//------- showcase
 var t2 = new TimelineMax();
 t2.from('.background-box', 1, {x: -900});
 t2.from('.description__heading', 0.5 , {y: -40, opacity: 0},"-=0.8");

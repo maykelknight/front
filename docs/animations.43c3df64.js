@@ -252,9 +252,9 @@ Array.prototype.forEach.call(titleIcon, function (elem) {
     triggerHook: 1,
     reverse: false
   }).setTween(tl).addTo(controller);
-});
+}); //------ skills
+
 Array.prototype.forEach.call(skill, function (elem) {
-  console.log(elem.childNodes);
   var picture = null;
   var description = null;
 
@@ -285,7 +285,8 @@ Array.prototype.forEach.call(skill, function (elem) {
     triggerHook: 0.8,
     reverse: false
   }).setTween(tl).addTo(controller);
-});
+}); //------- showcase
+
 var t2 = new TimelineMax();
 t2.from('.background-box', 1, {
   x: -900
@@ -333,7 +334,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63420" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64894" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

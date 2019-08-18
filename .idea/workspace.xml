@@ -2,25 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="483893ce-76ac-4ace-ab6e-d4a8edc4cfe8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/showcase/travellers/img/img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/showcase/travellers/img/img5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/js/vendor/ScrollMagic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/js/vendor/ScrollMagic.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/js/vendor/TweenMax.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/js/vendor/animation.gsap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/js/vendor/animation.gsap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/js/vendor/jquery.ScrollMagic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/js/vendor/smooth-scroll.polyfills.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/showcase/travellers/img/img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/showcase/travellers/img/img6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/showcase/travellers/img/img7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/showcase/travellers/img/img8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/showcase/travellers/img/img9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/showcase/vendor/img/img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/showcase/vendor/img/img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/showcase/vendor/img/img3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/showcase/vendor/img/img4.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/animations.43c3df64.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/animations.43c3df64.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/animations.43c3df64.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/animations.43c3df64.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/brainwaver.af897bd1.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/brainwaver.af897bd1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/brainwaver.af897bd1.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/brainwaver.af897bd1.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/main.2b755954.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/main.2b755954.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/main.2b755954.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/main.2b755954.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/main.cea5deef.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/main.cea5deef.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/main.cea5deef.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/main.cea5deef.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/showcase/brainwaver/brainwaver.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/showcase/brainwaver/brainwaver.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/showcase/travellers/travellers.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/showcase/travellers/travellers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/showcase/vendor/vendor.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/showcase/vendor/vendor.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/travellers.68d8fade.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/travellers.68d8fade.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/travellers.68d8fade.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/travellers.68d8fade.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/vendor.4b41093a.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/vendor.4b41093a.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/vendor.4b41093a.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/vendor.4b41093a.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/js/animations.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/animations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/showcase/travellers/travellers.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/showcase/travellers/travellers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/showcase/vendor/vendor.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/showcase/vendor/vendor.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -34,13 +50,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1099">
-              <caret line="277" column="72" selection-start-line="277" selection-start-column="72" selection-end-line="277" selection-end-column="72" />
+            <state relative-caret-position="461">
+              <caret line="347" column="31" selection-start-line="347" selection-start-column="31" selection-end-line="347" selection-end-column="31" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#ul#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#1;n#div#0;n#li#0;n#ul#0;n#div#2;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#1;n#div#0;n#li#1;n#ul#0;n#div#2;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#li#2;n#ul#0;n#div#2;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#ul#0;n#div#2;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#1;n#section#5;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#2;n#section#5;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -51,71 +70,81 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/showcase/vendor/vendor.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="671">
-              <caret line="72" column="17" selection-start-line="72" selection-end-line="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/showcase/brainwaver/brainwaver.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/showcase/vendor/vendor.js">
+        <entry file="file://$PROJECT_DIR$/src/assets/js/vendor/ScrollMagic.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="36" selection-start-column="36" selection-end-column="36" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/showcase/brainwaver/brainwaver.html">
+        <entry file="file://$PROJECT_DIR$/src/assets/js/animations.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="65" column="72" selection-start-line="62" selection-start-column="8" selection-end-line="65" selection-end-column="72" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/showcase/travellers/travellers.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="52" column="73" lean-forward="true" selection-start-line="52" selection-start-column="73" selection-end-line="52" selection-end-column="73" />
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/scss/components/buttons.scss">
+        <entry file="file://$PROJECT_DIR$/node_modules/scrollmagic/scrollmagic/minified/plugins/jquery.ScrollMagic.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+            <state>
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/showcase/travellers/travellers.js">
+        <entry file="file://$PROJECT_DIR$/node_modules/scrollmagic/scrollmagic/uncompressed/ScrollMagic.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/scrollmagic/scrollmagic/minified/ScrollMagic.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/assets/js/vendor/ScrollMagic.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/gsap/BezierPlugin.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/assets/js/vendor/animation.gsap.min.js">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/scss/main.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -174,21 +203,22 @@
         <option value="$PROJECT_DIR$/src/vendor.html" />
         <option value="$PROJECT_DIR$/src/brainwaver.html" />
         <option value="$PROJECT_DIR$/src/assets/scss/main.scss" />
-        <option value="$PROJECT_DIR$/src/assets/js/animations.js" />
         <option value="$PROJECT_DIR$/src/showcase/brainwaver/brainwaver.js" />
         <option value="$PROJECT_DIR$/src/showcase/vendor/vendor.js" />
-        <option value="$PROJECT_DIR$/src/showcase/vendor/vendor.html" />
         <option value="$PROJECT_DIR$/src/showcase/travellers/travellers.ks.js" />
         <option value="$PROJECT_DIR$/src/assets/scss/components/buttons.scss" />
-        <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/showcase/brainwaver/brainwaver.html" />
         <option value="$PROJECT_DIR$/src/showcase/travellers/travellers.html" />
+        <option value="$PROJECT_DIR$/src/showcase/vendor/vendor.html" />
+        <option value="$PROJECT_DIR$/src/assets/js/vendor/ScrollMagic.min.js" />
+        <option value="$PROJECT_DIR$/src/assets/js/animations.js" />
+        <option value="$PROJECT_DIR$/src/index.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="191" />
-    <option name="y" value="81" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1358" />
+    <option name="y" value="-8" />
     <option name="width" value="1026" />
     <option name="height" value="546" />
   </component>
@@ -207,45 +237,6 @@
               <item name="Szybki Start" type="b2602c69:ProjectViewProjectNode" />
               <item name="Szybki Start" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Szybki Start" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Szybki Start" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Szybki Start" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Szybki Start" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Szybki Start" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Szybki Start" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="showcase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Szybki Start" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Szybki Start" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="showcase" type="462c0819:PsiDirectoryNode" />
-              <item name="brainwaver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Szybki Start" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Szybki Start" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="showcase" type="462c0819:PsiDirectoryNode" />
-              <item name="travellers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Szybki Start" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Szybki Start" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="showcase" type="462c0819:PsiDirectoryNode" />
-              <item name="travellers" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -257,7 +248,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/js/vendor" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -266,12 +257,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Program Files (x86)\Brackets\samples\pl\Szybki Start\src\assets\js\vendor" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Program Files (x86)\Brackets\samples\pl\Szybki Start\src\showcase\vendor\img" />
       <recent name="D:\Program Files (x86)\Brackets\samples\pl\Szybki Start\src\showcase\travellers\img" />
       <recent name="D:\Program Files (x86)\Brackets\samples\pl\Szybki Start\src\showcase\brainwaver\img" />
       <recent name="D:\Program Files (x86)\Brackets\samples\pl\Szybki Start\src\showcase\vendor" />
       <recent name="D:\Program Files (x86)\Brackets\samples\pl\Szybki Start\src\showcase\brainwaver" />
-      <recent name="D:\Program Files (x86)\Brackets\samples\pl\Szybki Start\src\showcase" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -341,18 +335,20 @@
       <workItem from="1565163654843" duration="28000" />
       <workItem from="1565285722424" duration="7107000" />
       <workItem from="1565334218827" duration="122000" />
-      <workItem from="1565721738034" duration="6005000" />
+      <workItem from="1565721738034" duration="6700000" />
+      <workItem from="1565762829067" duration="1814000" />
+      <workItem from="1566056960056" duration="9778000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125623000" />
+    <option name="totallyTimeSpent" value="137910000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1592262" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16122234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -365,9 +361,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936078" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32502708" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.26841244" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.22751896" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -399,55 +395,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/assets/img/heading2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/heading.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/showcase2a.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/showcase2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/showcase1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/ico-school.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/ico-plant.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/ico-box.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/ico-back.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/showcase3a.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/css/sections/about.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/me3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/me2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/foto1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/bckg-experience.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/me1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/css/components/buttons.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -573,20 +531,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
-          <caret line="74" column="38" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/scss/components/slideshow.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -601,17 +545,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/js/animations.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="26" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/showcase/brainwaver/img/img1.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/showcase/brainwaver/brainwaver.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/showcase/vendor/vendor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="36" selection-start-column="36" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/showcase/brainwaver/brainwaver.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="65" column="72" selection-start-line="62" selection-start-column="8" selection-end-line="65" selection-end-column="72" />
         </state>
       </provider>
     </entry>
@@ -632,48 +586,173 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/showcase/vendor/vendor.js">
+    <entry file="file://$PROJECT_DIR$/src/showcase/travellers/travellers.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="36" selection-start-column="36" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1099">
-          <caret line="277" column="72" selection-start-line="277" selection-start-column="72" selection-end-line="277" selection-end-column="72" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#ul#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#ul#0;n#div#2;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#1;n#section#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#2;n#section#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#3;n#section#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="289">
+          <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="53" selection-end-column="72" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/showcase/vendor/vendor.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="72" column="17" selection-start-line="72" selection-end-line="73" />
+        <state relative-caret-position="520">
+          <caret line="73" column="35" selection-start-line="73" selection-start-column="35" selection-end-line="73" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/showcase/brainwaver/img/img1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/showcase/brainwaver/brainwaver.html">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="65" column="72" selection-start-line="62" selection-start-column="8" selection-end-line="65" selection-end-column="72" />
+        <state relative-caret-position="153">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/showcase/travellers/travellers.html">
+    <entry file="file://$PROJECT_DIR$/src/assets/js/vendor/smooth-scroll.polyfills.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/js/vendor/TimelineMax.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/js/vendor/TweenMax.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/gsap/src/minified/plugins/AttrPlugin.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="52" column="73" lean-forward="true" selection-start-line="52" selection-start-column="73" selection-end-line="52" selection-end-column="73" />
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/gsap/umd/AttrPlugin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/gsap/umd/TimelineMax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/gsap/umd/TimelineLite.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/gsap/all.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204">
+          <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#1332#1461#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/gsap/BezierPlugin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/js/vendor/animation.gsap.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/scrollmagic/scrollmagic/minified/ScrollMagic.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/scrollmagic/scrollmagic/minified/plugins/jquery.ScrollMagic.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/scrollmagic/scrollmagic/uncompressed/ScrollMagic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/js/vendor/ScrollMagic.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="74" column="38" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/js/vendor/animation.gsap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/js/animations.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/js/vendor/ScrollMagic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="347" column="31" selection-start-line="347" selection-start-column="31" selection-end-line="347" selection-end-column="31" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#ul#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#0;n#li#0;n#ul#0;n#div#2;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#0;n#li#1;n#ul#0;n#div#2;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#li#2;n#ul#0;n#div#2;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#ul#0;n#div#2;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#1;n#section#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#2;n#section#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#3;n#section#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
