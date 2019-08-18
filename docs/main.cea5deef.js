@@ -200,7 +200,6 @@ var navWrapper = document.getElementsByClassName("nav-wrapper")[0];
 var screenWidth = window.innerWidth > 0 ? window.innerWidth : screen.width;
 
 window.onload = function () {
-  // addClickEventsToNavbarLinks();
   hideNavigationMenuOnLinkClick();
   showNavigationMenuOnHamburgerClicked();
   hideLoader();
@@ -309,7 +308,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64894" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56590" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

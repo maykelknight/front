@@ -6,7 +6,6 @@ var navWrapper = document.getElementsByClassName("nav-wrapper")[0];
 var screenWidth = (window.innerWidth > 0) ? window.innerWidth : screen.width;
 
 window.onload = function() {
-    // addClickEventsToNavbarLinks();
     hideNavigationMenuOnLinkClick();
     showNavigationMenuOnHamburgerClicked();
     hideLoader();

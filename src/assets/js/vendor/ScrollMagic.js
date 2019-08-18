@@ -10,6 +10,7 @@
  *
  * @file ScrollMagic main library.
  */
+console.log("TETSTASDASDAS")
 /**
  * @namespace ScrollMagic
  */

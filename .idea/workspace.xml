@@ -2,41 +2,230 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="483893ce-76ac-4ace-ab6e-d4a8edc4cfe8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/js/vendor/ScrollMagic.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/js/vendor/ScrollMagic.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/js/vendor/TweenMax.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/js/vendor/animation.gsap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/js/vendor/animation.gsap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/js/vendor/jquery.ScrollMagic.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/js/vendor/smooth-scroll.polyfills.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/showcase/travellers/img/img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/showcase/travellers/img/img6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/showcase/travellers/img/img7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/showcase/travellers/img/img8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/showcase/travellers/img/img9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/showcase/vendor/img/img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/showcase/vendor/img/img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/showcase/vendor/img/img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/showcase/vendor/img/img4.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/animations.43c3df64.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/animations.43c3df64.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/animations.43c3df64.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/animations.43c3df64.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/brainwaver.af897bd1.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/brainwaver.af897bd1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/main.2b755954.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/main.2b755954.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/main.cea5deef.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/main.cea5deef.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/showcase/brainwaver/brainwaver.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/showcase/brainwaver/brainwaver.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/showcase/travellers/travellers.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/showcase/travellers/travellers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/showcase/vendor/vendor.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/showcase/vendor/vendor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/travellers.68d8fade.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/travellers.68d8fade.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/vendor.4b41093a.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/vendor.4b41093a.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ScrollMagic.ab2580b1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ScrollMagic.ab2580b1.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ScrollMagic.c12bce37.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ScrollMagic.c12bce37.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ScrollMagic.min.f5b6fcf4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ScrollMagic.min.f5b6fcf4.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/TweenMax.min.bbc04157.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/TweenMax.min.bbc04157.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/TweenMax.min.cfaafe40.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/TweenMax.min.cfaafe40.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/about-bckg.00646352.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/about-bckg.e61d9ad1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/animation.gsap.min.b12ac06a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/animation.gsap.min.b12ac06a.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/animations.134f42fe.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/animations.134f42fe.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/animations.1e9b06ce.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/animations.1e9b06ce.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/animations.26d7f00c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/animations.26d7f00c.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/animations.36299479.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/animations.36299479.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/animations.3776da53.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/animations.3776da53.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/animations.43c3df64.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/animations.43c3df64.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/animations.43c3df64.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/animations.43c3df64.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/animations.5761fca0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/animations.5761fca0.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/animations.9334beed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/animations.9334beed.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/animations.98d744d8.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/animations.98d744d8.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/animations.9b98d4ad.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/animations.9b98d4ad.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/bckg-experience.7c03eb89.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/bckg-experience.9d9c3db1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/bg-01.77e0e128.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/bg-01.edb74907.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/brainwaver.98d744d8.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/brainwaver.98d744d8.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/brainwaver.ad6cd636.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/brainwaver.ad6cd636.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/brainwaver.af897bd1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/brainwaver.af897bd1.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/brainwaver.af897bd1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/brainwaver.af897bd1.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/brainwaver.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/heading2-small.2b87accb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/heading2-small.540b38d6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/heading2.b5b8091a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/heading2.bd77e152.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ico-back.1382befb.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ico-back.250d1f0a.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ico-box.82d51a52.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ico-box.a3b371ed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ico-plant.dcc33815.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ico-plant.fde0d58a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ico-school.31a4b51e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ico-school.ed44eacf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img1.0eb8d396.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img1.4abd3cb2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img1.6211d196.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img1.7f91271f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img1.a9946de7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img1.f51071be.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img1.f61432ee.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img2.1fded9b7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img2.26850307.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img2.270bc4c7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img2.8cba859d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img2.a11cb2df.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img2.e68f3e08.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img2.f2fd0b58.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img3.0c473725.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img3.96968d74.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img3.c88d4144.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img3.e1c6717f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img4.125cb6f1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img4.37679fb1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img4.788d9fad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img4.cb2f2580.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img5.68134fc6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img5.b81ceb7d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img5.dd49a843.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img5.ffcbe76a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img6.03de8e92.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img6.05d32d0d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img6.2d5f03f6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img6.ab40a6af.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img7.6c42992f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img7.95ef7202.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img7.d0ff4ff3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img7.f4acaa6c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img8.23dd2c6d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img8.cd85258c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img9.420407b5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img9.5b5caf46.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/jquery.ScrollMagic.c28fef78.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/jquery.ScrollMagic.c28fef78.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.134f42fe.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.134f42fe.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.1e9b06ce.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.1e9b06ce.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.2048530d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.2048530d.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.211d544e.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.211d544e.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.2b755954.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.2b755954.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.2b755954.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.2b755954.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.2d2b272b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.2d2b272b.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.50d27ca4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.50d27ca4.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.54328d0b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.54328d0b.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.545a3942.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.545a3942.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.5618113f.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.5618113f.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.58bb64c5.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.58bb64c5.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.6283f988.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.6283f988.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.6bd2d740.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.6bd2d740.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.8399bfc6.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.8399bfc6.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.90e04a25.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.90e04a25.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.983c7529.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.983c7529.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.98d744d8.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.98d744d8.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.99b478d0.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.99b478d0.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.9b98d4ad.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.9b98d4ad.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.9dc64f0a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.9dc64f0a.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.9e8325ce.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.9e8325ce.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.a672b4f0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.a672b4f0.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.acecf92c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.acecf92c.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.b7646876.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.b7646876.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.c8575221.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.c8575221.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.cea5deef.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.cea5deef.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.cea5deef.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.cea5deef.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.ed5cbe0e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.ed5cbe0e.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.f5ba25ab.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.f5ba25ab.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/me1.837baa0b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/me1.894b9599.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/me3.6fb9148a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/navigation.f63c986f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/navigation.f63c986f.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/navigation.f84e1103.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/navigation.f84e1103.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/showcase-brainwaver.014f5c42.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/showcase-brainwaver.a68ffee1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/showcase-travellers.09f9538f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/showcase-travellers.a96eec59.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/showcase-travellers2.265cfc8d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/showcase-travellers2.cfcb1556.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/showcase-vendor.863a59d5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/showcase-vendor.a9e23ea5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/showcase.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/showcase/brainwaver.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/showcase/brainwaver/brainwaver.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/showcase/kuleczki.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/showcase/travellers/travellers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/showcase/vendor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/showcase/vendor/vendor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/showcase1.0eb8d396.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/showcase1.10fe961a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/showcase2.270bc4c7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/showcase2.91c4e52f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/showcase3a.82b2d47a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/showcase3a.cb2f2580.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/skills1.2214a20e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/skills1.2a0cfc7a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/skills2.72b978d4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/skills2.b8cb39a2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/skills3.4ce2a192.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/skills3.cd6b9681.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/skills4.2f291dff.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/skills4.b85fb2fc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/smooth-scroll.polyfills.071be855.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/smooth-scroll.polyfills.071be855.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/smooth-scroll.polyfills.2177ed4a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/smooth-scroll.polyfills.2177ed4a.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/travellers.68d8fade.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/travellers.68d8fade.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/travellers.f84e1103.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/travellers.f84e1103.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/vendor.093975ec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/vendor.093975ec.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/vendor.4b41093a.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/vendor.4b41093a.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/vendor.4b41093a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/vendor.4b41093a.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/vendor.98d744d8.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/vendor.98d744d8.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/vendor.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/js/animations.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/animations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/js/vendor/ScrollMagic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/vendor/ScrollMagic.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/showcase/travellers/travellers.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/showcase/travellers/travellers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/showcase/vendor/vendor.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/showcase/vendor/vendor.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -50,11 +239,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="347" column="31" selection-start-line="347" selection-start-column="31" selection-end-line="347" selection-end-column="31" />
+            <state relative-caret-position="213">
+              <caret line="337" column="25" lean-forward="true" selection-start-line="337" selection-start-column="25" selection-end-line="337" selection-end-column="25" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#ul#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#1;n#div#0;n#li#0;n#ul#0;n#div#2;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -70,14 +259,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/js/vendor/ScrollMagic.js">
+        <entry file="file://$PROJECT_DIR$/src/showcase/brainwaver/brainwaver.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/ScrollMagic.c12bce37.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/ScrollMagic.c14d1e62.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="15" selection-start-column="15" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -89,61 +304,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/scrollmagic/scrollmagic/minified/plugins/jquery.ScrollMagic.min.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/assets/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/scrollmagic/scrollmagic/uncompressed/ScrollMagic.js">
+        <entry file="file://$PROJECT_DIR$/src/assets/js/vendor/animation.gsap.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="17">
+              <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/scrollmagic/scrollmagic/minified/ScrollMagic.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/js/vendor/ScrollMagic.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/gsap/BezierPlugin.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/js/vendor/animation.gsap.min.js">
+        <entry file="file://$PROJECT_DIR$/src/assets/js/vendor/TweenMax.min.js">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -179,10 +359,8 @@
         <option value="$PROJECT_DIR$/.postcssrc" />
         <option value="$PROJECT_DIR$/src/assets/scss/sections/skills.scss" />
         <option value="$PROJECT_DIR$/src/assets/js/navigation.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/assets/scss/components/navbar.scss" />
         <option value="$PROJECT_DIR$/src/assets/scss/components/loader.scss" />
-        <option value="$PROJECT_DIR$/src/assets/js/main.js" />
         <option value="$PROJECT_DIR$/src/assets/css/sections/about.css" />
         <option value="$PROJECT_DIR$/src/assets/scss/helpers/colors.scss" />
         <option value="$PROJECT_DIR$/src/assets/scss/sections/footer.scss" />
@@ -211,13 +389,17 @@
         <option value="$PROJECT_DIR$/src/showcase/travellers/travellers.html" />
         <option value="$PROJECT_DIR$/src/showcase/vendor/vendor.html" />
         <option value="$PROJECT_DIR$/src/assets/js/vendor/ScrollMagic.min.js" />
+        <option value="$PROJECT_DIR$/docs/index.html" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/assets/js/vendor/ScrollMagic.js" />
         <option value="$PROJECT_DIR$/src/assets/js/animations.js" />
+        <option value="$PROJECT_DIR$/src/assets/js/main.js" />
         <option value="$PROJECT_DIR$/src/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1358" />
+    <option name="x" value="1744" />
     <option name="y" value="-8" />
     <option name="width" value="1026" />
     <option name="height" value="546" />
@@ -237,6 +419,11 @@
               <item name="Szybki Start" type="b2602c69:ProjectViewProjectNode" />
               <item name="Szybki Start" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Szybki Start" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Szybki Start" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -248,7 +435,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/js/vendor" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -258,14 +445,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Program Files (x86)\Brackets\samples\pl\Szybki Start\docs" />
       <recent name="D:\Program Files (x86)\Brackets\samples\pl\Szybki Start\src\assets\js\vendor" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Program Files (x86)\Brackets\samples\pl\Szybki Start\src\assets\js\vendor" />
       <recent name="D:\Program Files (x86)\Brackets\samples\pl\Szybki Start\src\showcase\vendor\img" />
       <recent name="D:\Program Files (x86)\Brackets\samples\pl\Szybki Start\src\showcase\travellers\img" />
       <recent name="D:\Program Files (x86)\Brackets\samples\pl\Szybki Start\src\showcase\brainwaver\img" />
       <recent name="D:\Program Files (x86)\Brackets\samples\pl\Szybki Start\src\showcase\vendor" />
-      <recent name="D:\Program Files (x86)\Brackets\samples\pl\Szybki Start\src\showcase\brainwaver" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -337,18 +525,18 @@
       <workItem from="1565334218827" duration="122000" />
       <workItem from="1565721738034" duration="6700000" />
       <workItem from="1565762829067" duration="1814000" />
-      <workItem from="1566056960056" duration="9778000" />
+      <workItem from="1566056960056" duration="12437000" />
+      <workItem from="1566116980913" duration="2902000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137910000" />
+    <option name="totallyTimeSpent" value="143471000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16122234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19915701" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -363,29 +551,29 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32502708" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.22751896" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49894625" visible="true" weight="0.3488624" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50105375" side_tool="true" visible="true" weight="0.3488624" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17597471" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16122234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info id="DB Browser" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="DB Browser" order="4" weight="0.32982087" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.6661211" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32502708" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.20801733" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.22751896" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -406,90 +594,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/assets/css/components/buttons.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/js/navigation.js" />
-    <entry file="file://$PROJECT_DIR$/docs/navigation.f63c986f.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3494">
-          <caret line="314" column="28" selection-start-line="314" selection-start-column="28" selection-end-line="314" selection-end-column="28" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/components/navbar.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="749">
-          <caret line="133" column="28" selection-start-line="133" selection-start-column="28" selection-end-line="133" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/helpers/fonts.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/sections/footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/sections/header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/helpers/spacing.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/helpers/atoms.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/components/loader.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/sections/skills.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/sections/about.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/sections/contact.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/scss/sections/cv.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -548,13 +652,6 @@
     <entry file="file://$PROJECT_DIR$/src/showcase/brainwaver/img/img1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/showcase/brainwaver/brainwaver.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/showcase/vendor/vendor.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -600,22 +697,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/js/vendor/smooth-scroll.polyfills.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/js/vendor/TimelineMax.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/js/vendor/TweenMax.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/js/vendor/TimelineMax.min.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/gsap/src/minified/plugins/AttrPlugin.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -693,6 +778,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/docs/img4.37679fb1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/ScrollMagic.js" />
+    <entry file="file://$PROJECT_DIR$/docs/smooth-scroll.polyfills.071be855.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/main.cea5deef.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/js/vendor/ScrollMagic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/scrollmagic/scrollmagic/uncompressed/ScrollMagic.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -709,17 +827,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/js/main.js">
+    <entry file="file://$PROJECT_DIR$/docs/animations.43c3df64.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
-          <caret line="74" column="38" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
+        <state relative-caret-position="52443">
+          <caret line="3258" column="2" selection-start-line="3258" selection-start-column="2" selection-end-line="3258" selection-end-column="2" />
+          <caret line="3259" column="68" selection-start-line="3259" selection-start-column="68" selection-end-line="3259" selection-end-column="68" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/bckg-experience.9d9c3db1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/bg-01.77e0e128.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/brainwaver.af897bd1.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/brainwaver.af897bd1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="8" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/ScrollMagic.c12bce37.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/ScrollMagic.c14d1e62.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/js/vendor/TweenMax.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/js/vendor/animation.gsap.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -730,19 +901,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/js/vendor/ScrollMagic.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="347" column="31" selection-start-line="347" selection-start-column="31" selection-end-line="347" selection-end-column="31" />
+        <state relative-caret-position="213">
+          <caret line="337" column="25" lean-forward="true" selection-start-line="337" selection-start-column="25" selection-end-line="337" selection-end-column="25" />
           <folding>
             <element signature="n#style#0;n#div#0;n#ul#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#1;n#div#0;n#li#0;n#ul#0;n#div#2;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -753,6 +915,20 @@
             <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#2;n#section#5;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#3;n#section#5;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/showcase/brainwaver/brainwaver.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
